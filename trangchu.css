@@ -92,15 +92,16 @@ nav .fa-bars{
 .Semi_Footer {
     width: 100%;
     text-align: center;
-    padding: 300px 0;
+    padding: 30px 0;
     background-color:rgba(219,222,238,1);
     
 }
 .Semi_Footer h6 {
     margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
-    font: 1em sans-serif;
+    margin-top: 10px;
+    font-weight: 700;
+    font: 1.5em sans-serif;
+    color: rgba(40,40,40,0.62);
 }
 .Semi_Footer h1 {
     margin-bottom: 25px;
@@ -114,8 +115,68 @@ nav .fa-bars{
     padding: 20px 50px;
     border-radius: 30px;
     color: aliceblue;
-    font: 1em sans-serif;
+    font: 1.4em sans-serif;
     background: linear-gradient(#003056,#028090);
+    margin-top: 38px;
+
+   
+}
+.Footer{
+    background: linear-gradient(#276F78,#003366);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    padding-bottom: 41px;
+
+}
+.Footer h1{
+    font-weight:bolder;
+    font-size: 2.8em;
+    font-family:'Tahoma';
+   
+}
+.Footer h4{
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-family: Verdana;
+    margin-top: 10px;
+}
+.Footer div{
+    margin-top: 30px;
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: Verdana;
+    
+    
+}
+.Footer div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.Footer div ul li h3{
+    padding: 10px;
+    
+}
+.Footer  div  button {
+    border:50px;
+    padding: 15px 21px;
+    font: 1.4em sans-serif;
+    margin-top: 50px;
+    
+}
+.gachchan{
+    background-color: #00B0CC;
+    height: 1.7px;
+    width: 20%;
+    margin: 10px ;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
  @media(max-width: 700px){
@@ -167,4 +228,10 @@ nav .fa-bars{
     .Semi_Footer h1 {
         font: 2em sans-serif;
     }
+    .Footer div ul{
+        display: block;
+        margin-left: 50px;
+         margin-right: 50px;
+    }
+
 } 
