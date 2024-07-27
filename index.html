@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="trangchu.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Image-Trangchu/logo.jpg" class="imglogo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark fa-1x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="#">Hoạt động</a>
+                    </li>
+                    <li>
+                        <a href="#">Tin tức - Thông báo</a>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển thành viên</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="headericon">
+                <ul>
+                    <li><a href="https://www.facebook.com/clbhtlt.ithusc">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a></li>
+                </ul>
+                <ul>
+                    <li><a href="clbhtlt.ithusc@gmail.com">
+                        <i class="fa-duotone fa-solid fa-envelopes-bulk fa-2x"></i>
+                    </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <p>SPIT HERE TO FIX</p>
+        </div>
+    </section>
+    <p>Trang chủ nè</p>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <!-- Semi_Footer-->
+    <section class="Semi_Footer">
+        <h6>SPIT</h6>
+        <h1>CÁC CÂU HỎI LIÊN QUAN ĐẾN HỌC TẬP VÀ CLB</h1>
+        <button>Nhấp tại đây</button>
+    </section>
+</body>
+</html>
