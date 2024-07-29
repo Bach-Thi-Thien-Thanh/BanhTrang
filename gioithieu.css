@@ -204,6 +204,79 @@ nav .fa-bars{
     background-color: #fff;
     text-align: center;
 }
+.BCN{
+    background-image: linear-gradient(134deg,#FBEEE6,#76D3DF);
+    padding: 20px;
+    padding-left: 50px;
+}
+.BCN h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.BCN img{
+    width:220px;
+}
+.BCN article{
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(95deg,#FBEEE6,#B9EBFB);  */
+}
+.BCN article div{
+    border-radius: 16px;
+    border-color: #028090;
+    border-style: solid;
+    background-image: linear-gradient(336deg,#7AB6E5,#EAEAE8);
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #003056;
+}
+.BCN article div p{
+    font-size: 15px;
+    padding: 5px;
+}
+.PADDINGLEFT{
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.PADDINGRIGHT{
+    padding-right: 550px;
+    padding-top: 20px;
+}
+.ThanhVien{
+    background-image: linear-gradient(255deg,#76D3DF,#FBEEE6);
+    padding: 20px;
+}
+.ThanhVien img{
+    width: 200px;
+}
+.ThanhVien h1{
+    font-size: 40px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.ThanhVien .Anh{
+    display: flex;
+    justify-content:space-between ;
+}
+.child{
+    /* position: absolute; */
+    width: 18%;
+    font-size: 15px;
+}
+.child_item{
+    background-color: #003056;
+    color: #FBEEE6;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s linear;
+}
+.child:hover .child_item{
+    opacity: 1;
+    visibility: visible;
+}
  @media(max-width: 700px){
     .text-box{
         font-size: 22px;
@@ -258,5 +331,71 @@ nav .fa-bars{
         margin-left: 50px;
          margin-right: 50px;
     }
-
+    .GioiThieu{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .GioiThieu div img{
+        width: 400px;
+    }
+    .GioiThieu div{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .GioiThieu div h1{
+        font-size: 30px;
+    }
+    .GioiThieu div p{
+        font-size: 15px;
+    }
+    .GioiThieu div h3{
+        border: 10px solid #fff;
+        background-color: #fff;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BCN h1{
+        font-size: 25px;
+    }
+    .BCN article{
+        display: block;
+    }
+    .PADDINGLEFT{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .PADDINGRIGHT{
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .BCN article div{
+        border-radius: 16px;
+        border-color: #028090;
+        border-style: solid;
+        background-image: linear-gradient(336deg,#7AB6E5,#EAEAE8);
+        height: 100px;
+        width: 300px;
+        padding: 20px;
+        color: #003056;
+    }
+    .BCN article div p{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .BCN article div h2{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .ThanhVien img{
+        width: 50px;
+    }
+    .ThanhVien h1{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .child{
+        /* position: absolute; */
+        width: 10%;
+        font-size: 8px;
+    }
 } 
