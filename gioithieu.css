@@ -336,7 +336,7 @@ nav .fa-bars{
         padding-bottom: 20px;
     }
     .GioiThieu div img{
-        width: 400px;
+        width: 350px;
     }
     .GioiThieu div{
         padding-left: 20px;
@@ -361,11 +361,11 @@ nav .fa-bars{
         display: block;
     }
     .PADDINGLEFT{
-        padding-left: 20px;
+        padding-left: 0px;
         padding-top: 20px;
     }
     .PADDINGRIGHT{
-        padding-right: 20px;
+        padding-right: 50px;
         padding-top: 20px;
     }
     .BCN article div{
@@ -375,12 +375,12 @@ nav .fa-bars{
         background-image: linear-gradient(336deg,#7AB6E5,#EAEAE8);
         height: 100px;
         width: 300px;
-        padding: 20px;
+        padding: 10px;
         color: #003056;
     }
     .BCN article div p{
         font-size: 10px;
-        padding: 5px;
+        padding: 0px;
     }
     .BCN article div h2{
         font-size: 15px;
