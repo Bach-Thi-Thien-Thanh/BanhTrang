@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.Header{
+    height: 200vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
 .header{
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100%;
     background-image: linear-gradient(rgba(85, 78, 78, 0.7),rgba(3, 4, 4, 0.7)), url(Image-Trangchu/header.jpg) ;   
     background-position: center;
@@ -13,6 +20,7 @@
 .imglogo{
     border-radius: 50%;
     width:80px ; height: auto;
+    
 }
 nav{
     display: flex;
@@ -88,6 +96,157 @@ nav .fa-regular{
 }
 nav .fa-bars{
     display: none;
+}
+.menu{
+   
+    width: 80%;
+    height: 600px;
+    margin-top: -90px;
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    justify-content: center;
+
+}
+.menuGT{
+    background:linear-gradient(266deg,#E8B7D4,#BFB8DA);
+    width: 100%;
+    height: 600px;
+    margin-right: 40px;
+    justify-content: center;
+    
+}
+.menuGT a{
+    list-style: none;
+    text-decoration: none;
+}
+.menuGT .MD h2{
+    color: #1E1E1E;
+    padding: 15px ;
+    font-family:  sans-serif;
+}
+.menuGT .MD p{
+    color: #979595;
+    font-family:  sans-serif;
+    padding: 15px ;
+    margin-top: -7%;
+    font-size: 15px;
+}
+.menuGT .MD  h4{
+    color: #1E1E1E;
+    font-family:  sans-serif;
+    padding: 15px ;
+    margin-top: -10%;
+    text-decoration: none;
+}
+.menuGT .MD h4 i{
+    margin-top: 5%;
+}
+.menuGT:hover{
+    transform: scale(1.2);
+
+}
+.menuMD a{
+    list-style: none;
+    text-decoration: none;
+}
+.menuMD .MD h2{
+    color: #1E1E1E;
+    padding: 15px ;
+    font-family:  sans-serif;
+}
+.menuMD .MD p{
+    color: #979595;
+    font-family:  sans-serif;
+    padding: 15px ;
+    margin-top: -7%;
+    font-size: 15px;
+}
+.menuMD .MD h4 {
+    color: #1E1E1E;
+    font-family:  sans-serif;
+    padding: 15px ;
+    margin-top: -10%;
+}
+.menuMD .MD h4 i{
+    margin-top: 5%;
+}
+.menuMD:hover{
+    transform: scale(1.2);
+
+}
+.menuHD a{
+    list-style: none;
+    text-decoration: none;
+}
+.menuHD .MD h2{
+    color: #1E1E1E;
+    padding: 15px ;
+    font-family:  sans-serif;
+}
+.menuHD .MD p{
+    color: #979595;
+    font-family:  sans-serif;
+    padding: 15px ;
+    margin-top: -7%;
+    font-size: 15px;
+}
+.menuHD .MD h4 {
+    color: #1E1E1E;
+    font-family:  sans-serif;
+    padding: 15px ;
+    margin-top: -10%;
+}
+.menuHD .MD h4 i{
+    margin-top: 5%;
+}
+.menuHD:hover{
+    transform: scale(1.2);
+
+}
+.img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    justify-content: center;
+    position: relative;
+}
+.MD{
+    width: 65%;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-color: #F2F3F7;
+    justify-content: center;
+    position: relative;
+    height: 150px;
+    margin-top: -50px;
+    
+    
+}
+
+.menuMD{
+   background: linear-gradient(220deg,#BFB8DA,#7FACD6);
+    width: 100%;
+    height: 600px;
+    margin-right: 40px;
+    justify-content: center;
+    
+}
+.menuHD{
+    background: linear-gradient(220deg,#FF7B89,#A5CAD2);
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+.body{
+    background-color: #1c616b;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 .Semi_Footer {
     width: 100%;
