@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,115 +8,373 @@
     <link rel="stylesheet" href="hoatdong.css">
     <link rel="stylesheet" href="font-awesome/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body id="container">
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="Image-Trangchu/logo.jpg" class="imglogo"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa-regular fa-circle-xmark fa-1x" onclick="hideMenu()"></i>
-                <ul>
-                    <li>
-                        <a href="index.html">Trang chủ</a>
+
+<body>
+    <div class="TQ">
+        <section class="header TQ1">
+            <nav>
+                <a href="index.html"><img src="Image-Trangchu/logo.jpg" class="imglogo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-regular fa-circle-xmark fa-1x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="hoatdong.html">Hoạt động</a>
+                        </li>
+                        <li>
+                            <a href="TT_TB.html">Tin tức - Thông báo</a>
+                        </li>
+                        <li>
+                            <a href="#">Tuyển thành viên</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="headericon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/clbhtlt.ithusc">
+                                <i class="fa-brands fa-facebook fa-2x"></i>
+                            </a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="clbhtlt.ithusc@gmail.com">
+                                <i class="fa-duotone fa-solid fa-envelopes-bulk fa-2x"></i>
+                            </a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <p>HOẠT ĐỘNG</p>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+        <!--BODY-->
+        <div class="TQ1" id="container"></div>
+        <!-- Hoat dong tro giang -->
+        <section class="TroGiang ">
+            <h6>SPIT</h6>
+            <H1 class="hd">HOẠT ĐỘNG TRỢ GIẢNG</H1>
+            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="">
+            <div id="slide" class="TQ1 list">
+                <div class="item" style="background-image: url(image_HoatDong/giangday1.jpg);"></div>
+                <div class="item" style="background-image: url(image_HoatDong/giangday2.jpg);"></div>
+                <div class="item" style="background-image: url(image_HoatDong/giangday3.jpg);"></div>
+                <div class="item" style="background-image: url(image_HoatDong/giangday4.jpg);"></div>
+                <div class="item" style="background-image: url(image_HoatDong/giangday5.jpg);"></div>
+                <div class="item" style="background-image: url(image_HoatDong/giangday6.jpg);"></div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-left-long"></i></button>
+                <button id="next"><i class="fa-solid fa-right-long"></i></button>
+            </div>
+        </section>
+        <!-- Hoat dong Seminar -->
+        <section class="Seminar ">
+            <h6>SPIT</h6>
+            <H1>HOẠT ĐỘNG SEMINAR</H1>
+            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="">
+            <div class="TQ1 flex">
+                <div class="buttonSer prevSer"><i class="fa-solid fa-angles-left"></i></div>
+                <div class="containerSer">
+                    <div class="slideSer">
+                        <div class="itemSer" style="background-image: url(/BanhTrang/image_HoatDong/approach.jpg);">
+                            <div class="content">
+                                <div class="name"> SEMINAR "APPROACH 𝐓𝐎 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐈𝐍𝐆"</div>
+                                <div class="des">
+                                    Khi tham gia buổi Seminar này các bạn sẽ được: <br>
+                                    👉Biết được một số kiến thức căn bản của việc lập trình (như khai báo kiểu dữ liệu,
+                                    các cấu trúc
+                                    cơ bản của các lệnh if-else, for,...)
+                                    <br>👉Học hỏi được các tip format code sao cho dễ đọc, dễ debug
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="itemSer"
+                            style="background-image: url(/BanhTrang/image_HoatDong/knownlegeskill.jpg);">
+                            <div class="content">
+                                <div class="name"> SEMINAR “KNOWLEDGE, SKILLS AND APPLICATIONS”</div>
+                                <div class="des">
+                                    🔑 Cuối tháng 3 này, CLB Hỗ trợ Lập trình rất vui khi được mang đến cho các bạn buổi
+                                    seminar thứ
+                                    2 của CLB có tên “Knowledge, Skills and Applications” với mục đích giúp các bạn hiểu
+                                    rõ về:
+                                    <br>👉 Độ phức tạp thuật toán, kỹ năng phân tích & giải quyết bài toán...
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonSer padding nextSer"><i class="fa-solid fa-angles-right"></i></div>
+            </div>
+        </section>
+        <!-- Hoat dong cuoc thi -->
+        <section class="Contest">
+            <h6>SPIT</h6>
+            <H1>HOẠT ĐỘNG CONTEST</H1>
+            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" class="imgchan">
+            <div class="containerContest">
+                <ul id="cards">
+                    <li class="card" id="card1">
+                        <div class="card-body">
+                            <div><img src="image_HoatDong/AnhContest (1).png" alt=""></div>
+                            <div class="textContest">
+                                <div class="nameCon">💥💥💥 SPIT NEWBIE CONTEST - ĐỢT 1</div>
+                                <div class="desCon">
+                                    👉 Thời gian diễn ra: 19:00 - 22:00, ngày 03/03/2024
+                                    <br>👉 Địa chỉ: online trên website https://coder.husc.edu.vn
+                                    —
+                                    <br>❓ Bạn đang cảm thấy khó khăn vì mới làm quen với lập trình thi đấu?
+                                    <br>❓ Bạn đang cần một khởi đầu mới với việc rèn luyện kỹ năng lập trình?
+
+                                    <br>💪 Vậy thì, SPIT Newbie Contest sẽ giúp các bạn có thể làm quen, cũng như tiếp
+                                    thu những
+                                    kiến thức và kỹ năng cơ bản của lập trình thi đấu.
+
+                                    <br>🌸 Hy vọng rằng SPIT Newbie Contest sẽ nhận được sự ủng hộ của các bạn!
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a href="gioithieu.html">Giới thiệu</a>
+
+                    <li class="card" id="card2">
+                        <div class="card-body">
+                            <div><img src="image_HoatDong/AnhContest (2).png" alt=""></div>
+                            <div class="textContest">
+                                <div class="nameCon">💥💥💥 SPIT NEWBIE CONTEST - ĐỢT 2</div>
+                                <div class="desCon">
+
+                                    👉 Thời gian diễn ra: 19:35 - 23:35, ngày 23/03/2024
+                                    <br>👉 Địa chỉ: Trực tuyến tại website
+                                    https://coder.husc.edu.vn/contest/spitnewbie02
+                                    <br>🤧 Xin lỗi tất cả các bạn vì sự chậm trễ trong thông báo của đợt này!
+                                    —
+                                    <br>💪 SPIT Newbie Contest sẽ giúp các bạn có thể làm quen, cũng như tiếp thu những
+                                    kiến thức và kỹ năng cơ bản của lập trình thi đấu.
+                                    <br>🌸 Hy vọng rằng SPIT Newbie Contest 02 sẽ tiếp tục nhận được sự ủng hộ của các
+                                    bạn!....
+
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a href="hoatdong.html">Hoạt động</a>
+
+                    <li class="card" id="card3">
+                        <div class="card-body">
+                            <div><img src="image_HoatDong/AnhContest (3).png" alt=""></div>
+                            <div class="textContest">
+                                <div class="nameCon">💥💥💥 SPIT NEWBIE CONTEST - ĐỢT 3</div>
+                                <div class="desCon">
+                                    👉 Thời gian diễn ra: 19:00 - 22:00, ngày 31/03/2024 <br>
+                                    👉 Hình thức thi: Trực tuyến tại website
+                                    https://coder.husc.edu.vn/contest/spitnewbie03
+                                    —
+                                    <br>❓ Bạn đang cảm thấy khó khăn vì mới làm quen với lập trình thi đấu?
+                                    <br>❓ Bạn đang cần một khởi đầu mới với việc rèn luyện kỹ năng lập trình?
+                                    <br>💪 Vậy thì, SPIT Newbie Contest sẽ giúp các bạn có thể làm quen, cũng như tiếp
+                                    thu những kiến thức và kỹ năng cơ bản của lập trình thi đấu.
+                                    <br>🌸 Hy vọng rằng SPIT Newbie Co…
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a href="TT_TB.html">Tin tức - Thông báo</a>
+
+                    <li class="card" id="card4">
+                        <div class="card-body">
+                            <div><img src="image_HoatDong/AnhContest (4).png" alt=""></div>
+                            <div class="textContest">
+                                <div class="nameCon">💥💥💥 SPIT NEWBIE CONTEST - ĐỢT 4</div>
+                                <div class="desCon">
+                                    👉 Thời gian diễn ra: 19:00 - 22:00, ngày 28/04/2024
+                                    <br>👉 Hình thức thi: Trực tuyến tại website
+                                    https://coder.husc.edu.vn/contest/spitnewbie04
+                                    —
+                                    <br>❓ Bạn đang cảm thấy khó khăn vì mới làm quen với lập trình thi đấu?
+
+                                    <br> ❓ Bạn đang cần một khởi đầu mới với việc rèn luyện kỹ năng lập trình?
+                                    <br>💪 Vậy thì, SPIT Newbie Contest sẽ giúp các bạn có thể làm quen, cũng như tiếp
+                                    thu những kiến thức và kỹ năng cơ bản của lập trình thi đấu.
+                                    <br>🌸 Hy vọng rằng SPIT Newbie Co…
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <a href="#">Tuyển thành viên</a>
+
+                    <li class="card" id="card5">
+                        <div class="card-body">
+                            <div><img src="image_HoatDong/AnhContest (5).png" alt=""></div>
+                            <div class="textContest">
+                                <div class="nameCon"> 💥💥💥 SPIT EXPERT CONTEST - ĐỢT 1</div>
+                                <div class="desCon">
+
+                                    👉 Thời gian diễn ra: 19:00 - 22:00, ngày 17/03/2024 (Chủ nhật)
+                                    <br>👉 Địa chỉ: https://coder.husc.edu.vn/contest/spitexpert01
+                                    —
+                                    <br>👋 Xin chào các bạn,
+                                    <br>🤗 Sau 2 tuần vắng bóng, SPIT Contest đã quay trở lại với Expert Contest đầu
+                                    tiên. Contest lần này hứa hẹn sẽ vô cùng hấp dẫn đối với tất cả các thí sinh 😉
+                                    <br>🎁 Đồng thời, giá trị của giải thưởng cho contest lần này cũng sẽ cao hơn Newbie
+                                    Contest, và chúng ta sẽ có đến 5 giải: 1 nhất, 1 nhì, 1 ba và 2 khuyế…
+
+                                </div>
+                                <button>Xem thêm</button>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
-            <div class="headericon">
-                <ul>
-                    <li><a href="https://www.facebook.com/clbhtlt.ithusc">
-                        <i class="fa-brands fa-facebook fa-2x"></i>
-                    </a></li>
-                </ul>
-                <ul>
-                    <li><a href="clbhtlt.ithusc@gmail.com">
-                        <i class="fa-duotone fa-solid fa-envelopes-bulk fa-2x"></i>
-                    </a></li>
+        </section>
+        <section class="NgoaiKhoa">
+            <h6>SPIT</h6>
+            <H1>HOẠT ĐỘNG NGOẠI KHÓA</H1>
+            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" class="imgchan">
+            <div class="slideNgoaiKhoa">
+                <div class="listNgoaiKhoa">
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hdnk1.jpg" alt="">
+                    </div>
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hdnk2.jpg" alt="">
+                    </div>
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hknk3.jpg" alt="">
+                    </div>
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hdnk4.jpg" alt="">
+                    </div>
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hknk5.jpg" alt="">
+                    </div>
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hknk6.jpg" alt="">
+                    </div>
+                    <div class="itemNgoaiKhoa">
+                        <img src="image_HoatDong/hknk7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="buttonNgoaiKhoa">
+                    <button id="prevNgoaiKhoa"><i class="fa-solid fa-angle-left"></i></button>
+                    <button id="nextNgoaiKhoa"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <ul class="dots">
+                    <li class="activedots"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-            <p>HOẠT ĐỘNG</p>
-        </div>
-    </section>
+        </section>
+        <section class="HdKhac">
+            <h6>SPIT</h6>
+            <H1>HOẠT ĐỘNG NGOẠI KHÓA</H1>
+            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" class="imgchan">
+            <div class="containerKhac">
+                <div class="wrapper">
+                    <div class="card_area">
+                        <div class="cardKhac">
+                            <img src="image_HoatDong/anhtuyentv.jpg" alt="">
+                            <div class="overlay">
+                                <h3>Mở cửa phòng tự học dành cho các bạn Khoa Công nghệ thông tin</h3>
+                                <button><a href="#">Xem thêm</a></button>
+                            </div>
+                        </div>
+                        <div class="cardKhac">
+                            <img src="image_HoatDong/hdkhac2.jpg" alt="">
+                            <div class="overlay">
+                                <h3>𝑪𝑳𝑩 𝑺𝑷𝑰𝑻 𝒗𝒐̛́𝒊 𝑲𝒉𝒐́𝒂 𝒃𝒐̂̀𝒊 𝒅𝒖̛𝒐̛̃𝒏𝒈 𝒈𝒊𝒂̉𝒏𝒈 𝒗𝒊𝒆̂𝒏 𝑲𝒉𝒖 𝒗𝒖̛̣𝒄 𝒎𝒊𝒆̂̀𝒏 𝑻𝒓𝒖𝒏𝒈 - 𝑻𝒂̂𝒚 𝑵𝒈𝒖𝒚𝒆̂𝒏 𝒏𝒂̆𝒎 2024 “𝑻𝒉𝒐̂́𝒏𝒈 𝒌𝒆̂ 𝒉𝒊𝒆̣̂𝒏 đ𝒂̣𝒊 𝒗𝒐̛́𝒊 𝒑𝒉𝒂̂̀𝒏 𝒎𝒆̂̀𝒎 𝒕𝒉𝒐̂́𝒏𝒈 𝒌𝒆̂ 𝑹”</h3>
+                                <button><a href="#">Xem thêm</a></button>
+                            </div>
+                        </div>
+                        <div class="cardKhac">
+                            <img src="image_HoatDong/hdkhac3.jpg" alt="">
+                            <div class="overlay">
+                                <h3>𝐂𝐋𝐁 𝐇𝐨̂̃ 𝐭𝐫𝐨̛̣ 𝐋𝐚̣̂𝐩 𝐭𝐫𝐢̀𝐧𝐡 𝐜𝐮̀𝐧𝐠 𝐯𝐨̛́𝐢 𝐜𝐮𝐨̣̂𝐜 𝐭𝐡𝐢 𝐎𝐥𝐲𝐦𝐩𝐢𝐜 𝐓𝐢𝐧 𝐡𝐨̣𝐜 𝐒𝐢𝐧𝐡 𝐯𝐢𝐞̂𝐧 𝐕𝐢𝐞̣̂𝐭 𝐍𝐚𝐦 𝐥𝐚̂̀𝐧 𝐭𝐡𝐮̛́ 𝟑𝟐 - 𝐏𝐫𝐨𝐜𝐨𝐧 𝐕𝐢𝐞𝐭𝐧𝐚𝐦 - 𝐈𝐂𝐏𝐂 𝐀𝐬𝐢𝐚 𝐇𝐮𝐞 𝐂𝐢𝐭𝐲 𝟐𝟎𝟐𝟑 </h3>
+                                <button><a href="#">Xem thêm</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="hoatdong.js"></script>
+        <!-- Semi_Footer-->
+        <section class="TQ1 Footer">
+            <h1>SPIT</h1>
+            <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
+            <div>
+                <ul>
+                    <li>
+                        <h3>Địa chỉ:</h3>
+                        <p>Phòng E202, Đại học Khoa học Huế</p>
+                    </li>
+                    <li>
+                        <h3>Email:</h3>
+                        <p>clbhtlt.ithusc@gmail.com</p>
+
+                    </li>
+                    <li>
+                        <h3>Hotline:</h3>
+                        <p>070 229 1317 - 0934 766 830</p>
+                    </li>
+                    <li>
+                        <h3>Fanpage:</h3>
+                        <p>https://www.facebook.com/clbhtlt.ithusc</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <button> <i class="fa-brands fa-facebook-f"></i></button>
+                <h1 class="gachchan">
+
+                </h1>
+            </div>
+            <div>
+                Home . About Us . Contact Us . Blog
+            </div>
+            <div>All Rights Reserved. </div>
+        </section>
+    </div>
+
 
     <script>
-        var navLinks=document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right="0";
-        }
-        function hideMenu(){
-            navLinks.style.right="-200px";
-        }
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+        ScrollReveal().reveal('.TroGiang, .Seminar, .Contest, .HdKhac, .NgoaiKhoa', { delay: 500, origin: 'left' });
     </script>
-
-    <!--BODY-->
-    <section class="TroGiang">
-        <h6>SPIT</h6>
-        <H1>HOẠT ĐỘNG TRỢ GIẢNG</H1>
-    </section>
-    <script src="hoatdong.js"></script>
-
-    <!-- Semi_Footer-->
-    <section class="Semi_Footer">
-        <h6>SPIT</h6>
-        <h1>CÁC CÂU HỎI LIÊN QUAN ĐẾN HỌC TẬP VÀ CLB</h1>
-        <button>
-            Nhấp tại đây 
-             <i class="fa-regular fa-hand-point-up fa-1x"></i>
-            
-            </button>
-        
-    </section>
-    <section class="Footer">
-        <h1>SPIT</h1>
-        <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
-        <div>
-            <ul>
-                <li>
-                    <h3>Địa chỉ:</h3>
-                    <p>Phòng E202, Đại học Khoa học Huế</p>
-                </li>
-                <li>
-                    <h3>Email:</h3>
-                    <p>clbhtlt.ithusc@gmail.com</p>
-
-                </li>
-                <li>
-                    <h3>Hotline:</h3>
-                    <p>070 229 1317 - 0934 766 830</p>
-                </li>
-                <li>
-                    <h3>Fanpage:</h3>
-                    <p>https://www.facebook.com/clbhtlt.ithusc</p>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <button>  <i class="fa-brands fa-facebook-f"></i></button>
-            <h1 class="gachchan">
-
-            </h1>
-        </div>
-        <div>
-             Home  .  About Us  .  Contact  Us  .  Blog
-        </div>
-        <div>All Rights Reserved. </div>
-    </section>
-
 </body>
+
 </html>

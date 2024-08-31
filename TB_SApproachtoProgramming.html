@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="TT_TB.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a><img src="Image_TTTBB/logo.jpg" class="imglogo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark fa-1x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="hoatdong.html">Hoạt động</a>
+                    </li>
+                    <li>
+                        <a href="TT_TB.html">Tin tức - Thông báo</a>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển thành viên</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="headericon">
+                <ul>
+                    <li><a href="https://www.facebook.com/clbhtlt.ithusc">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a></li>
+                </ul>
+                <ul>
+                    <li><a href="clbhtlt.ithusc@gmail.com">
+                        <i class="fa-duotone fa-solid fa-envelopes-bulk fa-2x"></i>
+                    </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <p>TIN TỨC - THÔNG BÁO</p>
+        </div>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <!-- Mid -->
+    <section class="Mid">
+        <nav class="ThongBao">
+            <div class="first">
+                <div class="title">
+                    <h6>SPIT</h6>
+                    <h1>THÔNG BÁO</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="main">
+                <img src="Image_TTTBB/SApproachtoProgramming.jpg">
+            </div>
+            <div class="extra">
+                <div class="content">
+                    <h3> 📢SEMINAR "APPROACH TO PROGRAMMING" ĐÃ QUAY TRỞ LẠI📢</h3>
+                    <h6>25/10/2023</h6>
+                    <p>
+                        Sau thời gian tạm hoãn chương trình do ảnh hưởng của thời tiết thì  CLB SPIT đã thống nhất mang chương trình quay trở lại rồi đây các bạn ơi 🥰 <br>
+                            🔥𝑻𝒉𝒐̛̀𝒊 𝒈𝒊𝒂𝒏: 8𝒉00 - 10𝒉30 𝒏𝒈𝒂̀𝒚 28/10/2023.<br>
+                            🔥Đ𝒊̣𝒂 đ𝒊𝒆̂̉𝒎: 𝑷𝒉𝒐̀𝒏𝒈 𝑬202 (𝑳𝒂𝒃 𝒅𝒐𝒂𝒏𝒉 𝒏𝒈𝒉𝒊𝒆̣̂𝒑 𝒌𝒉𝒐𝒂 𝑪𝑵𝑻𝑻).<br>
+                            🔥Đối tượng tham gia: Chỉ dành cho sinh viên năm thứ nhất thuộc khoa Công nghệ thông tin (K47).<br>
+                        Khi tham gia buổi Seminar này các bạn sẽ được:<br>
+                        👉Biết được một số kiến thức căn bản của việc lập trình (như khai báo kiểu dữ liệu, các cấu trúc cơ bản của các lệnh if-else, for,...)<br>
+                        👉Học hỏi được các tip format code sao cho dễ đọc, dễ debug<br>
+                        👉Nền tảng luyện kiến thức lập trình, cách nộp bài ở nền tảng luyện và một số lỗi khi nộp bài và cách fix<br>
+                        👉Kinh nghiệm về học tập và lập trình, và kèm theo đó là tâm lý làm bài và tâm lý trước-trong-sau các kì thi<br>
+                        𝑪𝒂́𝒄 𝒃𝒂̣𝒏 đ𝒂̃ đ𝒂̆𝒏𝒈 𝒌𝒚́ 𝒒𝒖𝒂 𝒇𝒐𝒓𝒎 đ𝒐̛̣𝒕 𝒕𝒓𝒖̛𝒐̛́𝒄 𝒏𝒉𝒐̛́ 𝒄𝒉𝒆𝒄𝒌 𝒎𝒂𝒊𝒍 𝒙𝒂́𝒄 𝒏𝒉𝒂̣̂𝒏 𝒏𝒉𝒆́!😘<br>
+                        Hẹn gặp các bạn vào buổi seminar cuối tuần này nhaaaaaaaaa ❤<br>
+                        --------------------------------------<br>
+                        🌠Câu Lạc Bộ Hỗ trợ Lập trình (SPIT)<br>
+                        📥Fanpage: https://www.facebook.com/clbhtlt.ithusc<br>
+                        📧Email: [clbhtlt.ithusc@gmail.com]<br>
+                        📞Hotline: 070 229 1317 - 0934 766 830 - 0934 094 936</p>
+
+                </div>
+            </div>
+            <!-- Thêm một phần mới vào sau phần Mid -->
+        </nav>
+    </section>
+    <section class="ThongBaoList">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Danh sách thông báo</h2>
+              <div>
+              <div class="thongbao-list">
+                <!-- Danh sách thông báo sẽ được hiển thị ở đây -->
+              </div>
+              <div class="pagination">
+                <button class="prev">Trước</button>
+                <button class="next">Sau</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="Footer">
+        <h1>SPIT</h1>
+        <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
+        <div>
+            <ul>
+                <li>
+                    <h3>Địa chỉ:</h3>
+                    <p>Phòng E202, Đại học Khoa học Huế</p>
+                </li>
+                <li>
+                    <h3>Email:</h3>
+                    <p>clbhtlt.ithusc@gmail.com</p>
+
+                </li>
+                <li>
+                    <h3>Hotline:</h3>
+                    <p>070 229 1317 - 0934 766 830</p>
+                </li>
+                <li>
+                    <h3>Fanpage:</h3>
+                    <p>https://www.facebook.com/clbhtlt.ithusc</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <button>  <i class="fa-brands fa-facebook-f"></i></button>
+            <h1 class="gachchan">
+
+            </h1>
+        </div>
+        <div>
+             Home  .  About Us  .  Contact  Us  .  Blog
+        </div>
+        <div>All Rights Reserved. </div>
+    </section>
+<script src="TB.js"></script>
+</body>
+</html>
