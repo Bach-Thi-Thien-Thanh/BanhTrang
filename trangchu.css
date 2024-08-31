@@ -1006,6 +1006,8 @@ nav .fa-bars{
     padding: 10px 0;
     color: #fff;
     padding-bottom: 41px;
+    position: relative;
+    overflow: hidden;
 
 }
 .Footer h1{
@@ -1041,75 +1043,96 @@ nav .fa-bars{
     
 }
 .Footer  div  button {
-    border:50px;
-    padding: 15px 21px;
+    border:10px;
+    padding: 10px 15px;
     font: 1.4em sans-serif;
-    margin-top: 50px;
+    /* margin-top: 10px; */
+    background-color: rgba(0,0, 0, 0.5);
+    color: #fff;
+    /* margin-left: 10px; */
+    border-radius: 5px;
+    margin-right: 20px;
     
 }
-.gachchan{
-    background-color: #00B0CC;
-    height: 1.7px;
-    width: 20%;
-    margin: 10px ;
-    margin-left: 40%;
-    margin-right: auto;
-    margin-top: 20px;
+.Footer  div  button a{
+    text-decoration: none;
+    color: #fff;
+}
+.Footer  div  button a:hover{
+    color: #00B0CC;
+
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    z-index: 4;
+
+}
+#animation{
+    width: 30%;
+    z-index: 4;
+}
+#animation img{
+    width: 150%;
+    animation: nudge 5s linear infinite alternate;
+    animation-direction: alternate;
+}
+.Info{
+    width: 70%;
+    margin: 0;
+    z-index: 4;
+}
+.Info ul div li {
+   text-align: left;
+   margin-top: 20px;
+  
+}
+.text2 :hover{
+    color: #00B0CC;
+}
+.text2 a:hover{
+    color: #00B0CC;
 }
 
- @media(max-width: 700px){
-    .text-box{
-        font-size: 22px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links ul li a{
-        font-size: 15px;
-        
-    }
-    .nav-links{
-        position:absolute;
-        background-color: rgb(157, 176, 180);
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-    }
-    nav .fa-regular{
-        display: block;
-        color: #003056;
-        padding: 10px 0px 1px;
-        font-size: large;
-        cursor: pointer;
-    }
-    nav .fa-bars{
-        display: block;
-    }
-    .nav-links ul{
-        padding: 20px;
-    }
-    .nav-links ul li a:hover{
-        color:  #003056;
-        size: 20px;
-       
-    }
-    .nav-links i {
-        padding: 20px;
-    }
-    .imglogo{
-        border-radius: 50%;
-        width:50px ; height: auto;
-    }
-    .Semi_Footer h1 {
-        font: 2em sans-serif;
-    }
-    .Footer div ul{
-        display: block;
-        margin-left: 50px;
-     margin-right: 50px;
-    }
+.Info ul div li a{
+    text-decoration: none;
+    color: #fff;
+}
 
-} 
+.text{
+    font-size: 1.8rem;
+}
+@keyframes nudge{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+}
+  #stars-container {
+    position: relative;
+
+  }
+  .snowflake {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: url('image_gioithieu/SPIT\ FRONT-\ END\ \(2\).png');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    animation: snowfall 15s infinite;
+    z-index: 1;
+    /* background-color: #0a1a44; */
+    top:0;
+    left:0
+  }
+  
+  @keyframes snowfall {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(300px);
+    }
+  }
