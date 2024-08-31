@@ -100,7 +100,8 @@ nav .fa-bars{
     padding: 10px 0;
     color: #fff;
     padding-bottom: 41px;
-
+    overflow: hidden;
+    position: relative;
 }
 .Footer h1{
     font-weight:bolder;
@@ -153,10 +154,12 @@ nav .fa-bars{
 .flex{
     display: flex;
     justify-content: flex-start;
+    z-index: 4;
 
 }
 #animation{
     width: 30%;
+    z-index: 4;
 }
 #animation img{
     width: 150%;
@@ -207,7 +210,9 @@ nav .fa-bars{
     background-image: url('SPIT\ FRONT-\ END\ \(2\).png');
     background-size: 30px 30px;
     background-repeat: no-repeat;
-    animation: snowfall 20s infinite;
+    animation: snowfall 15s infinite;
+    z-index: 1;
+    
   }
   
   @keyframes snowfall {
@@ -215,7 +220,7 @@ nav .fa-bars{
       transform: translateY(0);
     }
     100% {
-      transform: translateY(100vh);
+      transform: translateY(300px);
     }
   }
 
