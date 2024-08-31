@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-    <section class="header">
+    <section class="TQ1 header">
         <nav>
             <a href="index.html"><img src="Image-Trangchu/logo.jpg" class="imglogo"></a>
             <div class="nav-links" id="navLinks">
@@ -66,8 +65,9 @@
             navLinks.style.right = "-200px";
         }
     </script>
+    <DIV id="container" class="TQ1"></DIV>
     <!--Body-->
-    <section class="GioiThieu">
+    <section class="TQ1 GioiThieu">
         <div>
             <h1>CLB HỖ TRỢ LẬP TRÌNH</h1>
             <p>
@@ -94,9 +94,11 @@
             <img src="image_gioithieu/LichSuVaPhatTrien-0888109.webp">
             <h3>Lịch sử thành lập và phát triển CLB</h3>
         </Div>
+        <script src="hoatdong.js"></script>
     </section>
+    
     <!--Ban Chủ Nhiệm Check-->
-    <section class="BCN">
+    <section class="TQ1 BCN">
         <h1>THÀNH VIÊN BAN CHỦ NHIỆM</h1>
         <div class="Flex">
             <div class="Images CheckThanh">
@@ -142,53 +144,9 @@
         </div>
     </section>
 
-    <!-- <section class="BCN">
-        <h1>THÀNH VIÊN BAN CHỦ NHIỆM</h1>
-        <article class="PADDINGLEFT">
-            <div class="Images">
-                <img src="image_gioithieu/shape.png" class="shape">
-                <img src="image_gioithieu/athanh.png" class="image">
-            </div>
-            <div>
-                <h2>VÕ VĂN THÀNH</h2>
-                <p>CHỦ NHIỆM CLB</p>
-            </div>
-        </article>
-        <article class="PADDINGRIGHT Images">
-            <div class="Images">
-                <img src="image_gioithieu/shape.png" class="shape">
-                <img src="image_gioithieu/toan.png" class="image">
-            </div>
-            <div>
-                <h2>LÊ SỸ TOÀN</h2>
-                <p>PHÓ CHỦ NHIỆM CLB</p>
-            </div>
-        </article>
-        <article class="PADDINGLEFT Images">
-            <div class="Images">
-                <img src="image_gioithieu/shape.png" class="shape">
-                <img src="image_gioithieu/hai45.png" class="image">
-            </div>
-            <div>
-                <h2>NGÔ VĂN HẢI</h2>
-                <p>PHÓ CHỦ NHIỆM CLB</p>
-            </div>
-
-        </article>
-        <article class="PADDINGRIGHT Images">
-            <div class="Images">
-                <img src="image_gioithieu/shape.png" class="shape">
-                <img src="image_gioithieu/khanh.png" class="image">
-            </div>
-            <div>
-                <h2>HOÀNG BẢO KHÁNH</h2>
-                <p>PHÓ CHỦ NHIỆM CLB</p>
-            </div>
-        </article>
-    </section> -->
 
     <!--Thành viên check-->
-    <section class="ThanhVien">
+    <section class="TQ1 ThanhVien">
         <h1>CÁC THÀNH VIÊN TRONG CLB</h1>
         <div>
             <h3 class="Khoa">Khóa 1</h3>
@@ -338,7 +296,7 @@
 
 
     </section>
-    <section class="product-pre">
+    <section class="TQ1 product-pre">
 
         <div class="pre active" data-target="p-1">
             <i class="fa-solid fa-xmark"></i>
@@ -535,7 +493,7 @@
 
 
     <!-- Semi_Footer-->
-    <section class="Semi_Footer">
+    <section class="TQ1 Semi_Footer">
         <h6>SPIT</h6>
         <h1>CÁC CÂU HỎI LIÊN QUAN ĐẾN HỌC TẬP VÀ CLB</h1>
         <button>
@@ -545,7 +503,7 @@
         </button>
 
     </section>
-    <section class="Footer">
+    <section class="TQ1 Footer">
         <h1>SPIT</h1>
         <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
         <div>
@@ -580,6 +538,18 @@
         </div>
         <div>All Rights Reserved. </div>
     </section>
+
+
+
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+         });
+        ScrollReveal().reveal('.GioiThieu, .BCN, .ThanhVien', { delay: 500, origin:'left' });
+    </script>
 </body>
 
 </html>
