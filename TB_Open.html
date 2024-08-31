@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="TT_TB.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a><img src="Image_TTTBB/logo.jpg" class="imglogo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark fa-1x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="hoatdong.html">Hoạt động</a>
+                    </li>
+                    <li>
+                        <a href="TT_TB.html">Tin tức - Thông báo</a>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển thành viên</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="headericon">
+                <ul>
+                    <li><a href="https://www.facebook.com/clbhtlt.ithusc">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a></li>
+                </ul>
+                <ul>
+                    <li><a href="clbhtlt.ithusc@gmail.com">
+                        <i class="fa-duotone fa-solid fa-envelopes-bulk fa-2x"></i>
+                    </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <p>TIN TỨC - THÔNG BÁO</p>
+        </div>
+    </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <!-- Mid -->
+    <section class="Mid">
+        <nav class="ThongBao">
+            <div class="first">
+                <div class="title">
+                    <h6>SPIT</h6>
+                    <h1>THÔNG BÁO</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="main">
+                <img src="Image_TTTBB/Open.webp">
+            </div>
+            <div class="extra">
+                <div class="content">
+                    <h3> 📢 Thông báo mở cửa phòng tự học dành cho các bạn khoa Công nghệ thông tin, cùng một số lưu ý❗️</h3>
+                    <h6>19/05/2024</h6>
+                    <p>
+                        Chào các bạn,<br>
+                        🔔 Tuần sắp tới sẽ là tuần cuối cùng trước khi bước vào kỳ thi kết thúc học phần. Vì vậy, với mong muốn đem đến cho các bạn khoa Công nghệ thông tin một không gian học tập ngay tại trường, có cơ sở vật chất hiện đại và tâm thế chuẩn bị thật tốt cho kỳ thi, CLB Hỗ trợ Lập trình xin thông báo thời gian mở cửa phòng tự học E202 trong tuần này như sau:<br>
+                        👉 Thời gian: Các ngày từ thứ 2 đến thứ 7 (20/05 → 25/05).<br>
+                        ⏰ 𝐒𝐚́𝐧𝐠: 𝟖𝐡𝟎𝟎 - 𝟏𝟏𝐡𝟎𝟎<br>
+                        ⏰ 𝐂𝐡𝐢𝐞̂̀𝐮: 𝟏𝟒𝐡𝟎𝟎 - 𝟏𝟕𝐡𝟑𝟎<br>
+                        👉 Địa điểm: Phòng E202.<br>
+                        📍 Các bạn có thể đến đây như một không gian học tập và nhờ các thành viên trong CLB hướng dẫn một số bài tập về lập trình nhé. 💻<br>
+                        📌 Ngoài ra, chúng mình cũng có một vài lưu ý cho các bạn:<br>
+                        ✅ Khi sử dụng phòng tự học, các bạn vui lòng giữ trật tự và giữ vệ sinh để đảm bảo không gian học cho tất cả mọi người.<br>
+                        ✅ Sẽ có các thành viên trong CLB Hỗ trợ Lập trình trực tại phòng tự học để hỗ trợ và giải đáp về các học phần liên quan cho các bạn.<br>
+                        ⛔️ Trong thời gian thi kết thúc học phần, phòng tự học của chúng mình sẽ KHÔNG hoạt động.<br>
+                        ⛔️ CLB chúng mình sẽ KHÔNG nhận giải hộ bài thi dưới bất kỳ hình thức nào, đặc biệt là trong giờ thi. Mọi hành vi có liên quan, chúng mình sẽ có biện pháp xử lý mạnh tay.<br>
+                        💓 Cuối cùng, CLB Hỗ trợ Lập trình rất vui và biết ơn khi nhận được sự quan tâm của tất cả các bạn. Chúc các bạn ôn tập thật tốt, có một kỳ thi thành công và gặt hái được học bổng nhé! 💯<br>
+                        -------------------------------------<br>
+                        🌠Câu Lạc Bộ Hỗ trợ Lập trình (SPIT)<br>
+                        📥Fanpage: https://www.facebook.com/clbhtlt.ithusc<br>
+                        📧Email: [clbhtlt.ithusc@gmail.com]<br>
+                        📞Hotline: 070 229 1317 - 0934 766 830 - 0934 094 936</p>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="ThongBaoList">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Danh sách thông báo</h2>
+              <div>
+              <div class="thongbao-list">
+                <!-- Danh sách thông báo sẽ được hiển thị ở đây -->
+              </div>
+              <div class="pagination">
+                <button class="prev">Trước</button>
+                <button class="next">Sau</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="Footer">
+        <h1>SPIT</h1>
+        <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
+        <div>
+            <ul>
+                <li>
+                    <h3>Địa chỉ:</h3>
+                    <p>Phòng E202, Đại học Khoa học Huế</p>
+                </li>
+                <li>
+                    <h3>Email:</h3>
+                    <p>clbhtlt.ithusc@gmail.com</p>
+
+                </li>
+                <li>
+                    <h3>Hotline:</h3>
+                    <p>070 229 1317 - 0934 766 830</p>
+                </li>
+                <li>
+                    <h3>Fanpage:</h3>
+                    <p>https://www.facebook.com/clbhtlt.ithusc</p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <button>  <i class="fa-brands fa-facebook-f"></i></button>
+            <h1 class="gachchan">
+
+            </h1>
+        </div>
+        <div>
+             Home  .  About Us  .  Contact  Us  .  Blog
+        </div>
+        <div>All Rights Reserved. </div>
+    </section>
+    <script src="TB.js"></script>
+</body>
+</html>

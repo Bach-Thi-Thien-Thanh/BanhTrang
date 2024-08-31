@@ -64,6 +64,7 @@
         }
     </script>
     <!-- Mid -->
+
     <section class="Mid">
         <!-- Tin Tuc  --> 
         <nav class="TinTuc">
@@ -73,86 +74,48 @@
                     <h1>TIN TỨC</h1>
                     <hr>
                 </div>
-                <div class="search">
-                    <h3>TÌM KIẾM</h3>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Search for..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
-                    </div>
-                </div>
+                
             </div>
             <div class="bd">
             <div class="main">
                 <div class="content">
                     <a><img src="Image_TTTBB/SPIT_FRONT-_END-0700384.webp"></a>
                     <h3>CUỘC THI “SPIT FRONT END”</h3>
-                    <h4>(icon) lượt xem  | (icon) ngày | (icon) bình luận</h4>
+                    <h6>12/07/2024</h6>
                     <p> Nhằm mục đích tạo ra một sân chơi sáng tạo và phát huy tinh thần tự học, tìm hiểu của các bạn trong CLB Hỗ trợ Lập trình (SPIT), từ đó tìm ra được bài thi sử dụng làm trang web của CLB sau này, Ban Chủ nhiệm CLB SPIT Khóa 1 tổ chức cuộc thi “SPIT Front End” lần thứ nhất”........</p>
-                    <button>Xem thêm</button>
+                    <button class="btn"><a href="TT_SFE.html">Xem thêm</a></button>
                 </div>
                 <div class="content">
                     <a><img src="Image_TTTBB/Untitled-0950664.webp"></a>
                     <h3>CLB HỖ TRỢ LẬP TRÌNH CÙNG VỚI CHUYÊN MỤC NHỊP SỐNG TRẺ THỪA THIÊN HUẾ</h3>
-                    <h4>(icon) lượt xem  | (icon) ngày | (icon) bình luận</h4>
+                    <h6>14/04/2024</h6>
                     <p>CLB Hỗ trợ Lập trình được góp mặt trong chuyên mục “Nhịp sống trẻ Thừa Thiên Huế” trên sóng truyền hình TRT là một niềm tự hào rất lớn đối với CLB
                         🎥 Ngay sau đây xin mời mọi người cùng xem phóng sự này nhé!.................</p>
-                    <button>Xem thêm</button>
+                    <button class="btn"><a href="TT_NHIPSONGTRE.html">Xem thêm</a></button>
                 </div>
             </div>
             <div class="extra">
-                <div class="new">
-                    <h3>TIN TỨC MỚI NHẤT</h3>
+                <div class="select">
+                    <p>Chuyên Mục</p>
+                    <select id="category-select">
+                        <option value="SPIT CONTEST">SPIT CONTEST</option>
+                        <option value="SPIT SEMINAR">SPIT SEMINAR</option>
+                        <option value="SPIT SUPPORT">SPIT SUPPORT</option>
+                        <option value="KHÁC">KHÁC</option>
+                    </select>
+                </div>
+                <h3>TIN TỨC MỚI NHẤT</h3>
                     <hr>
-                    <ul>
-                        <li>
-                            <a><img src="Image_TTTBB/SPIT_FRONT-_END-0700384.webp"></a>
-                            <div>
-                                <h6>CUỘC THI “SPIT FRONT END”</h6>                                    
-                                <p>(icon) ngày</p>
-                               <button>Xem thêm</button>
-                            </div>
-                        </li>
-                        <li>
-                            <a><img src="Image_TTTBB/Untitled-0950664.webp"></a>
-                            <div>
-                                <h6>SPIT CÙNG VỚI CHUYÊN MỤC NHỊP SỐNG TRẺ THỪA THIÊN HUẾ</h6>
-                                <p>(icon) ngày</p>
-                               <button>Xem thêm</button>
-                            </div>
-                        </li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="CM">
-                        <h3>CHUYÊN MỤC</h3>
-                        <hr>
-                        <ul>
-                            <li>
-                                <p>>SPIT CONTEST</p>
-                                <p> (6)</p>
-                            </li>
-                            <hr>
-                            <li>
-                                <p>>SPIT SEMINAR</p>
-                                <p> (2)</p>
-                            </li>
-                            <hr>
-                            <li>
-                                <p>>SPIT SUPPORT</p>
-                                <p> (3)</p>
-                            </li>
-                            <hr>
-                            <li>
-                                <p>>KHÁC </p>
-                                <p> (4)</p>
-                            </li>
-                            <hr>
-                        </ul>
-                </div>
+                  <!-- Add an ID to the "Tin Tuc Moi Nhat" section -->
+                  <div id="latest-news" class="new">
+                    
+                  </div>
+                  
+            </div>
             </div>
         </div>
         </nav>
-        <nav class="ThongBao">
+        <!--<nav class="ThongBao">
             <div class="first">
                 <div class="title">
                     <h6>SPIT</h6>
@@ -166,44 +129,84 @@
             <div class="extra">
                 <div class="new">
                     <h3>THÔNG BÁO MỚI NHẤT</h3>
-                    <ul>
+                    <hr>
+                    <div id="latest-news" class="new">
+                    <ul >
                         <li>
                             <a><img src="Image_TTTBB/Open.webp"></a>
                             <div>
                                 <h6>𝐓𝐡𝐨̂𝐧𝐠 𝐛𝐚́𝐨 𝐦𝐨̛̉ 𝐜𝐮̛̉𝐚 𝐩𝐡𝐨̀𝐧𝐠 𝐭𝐮̛̣ 𝐡𝐨̣𝐜 𝐝𝐚̀𝐧𝐡 𝐜𝐡𝐨 𝐜𝐚́𝐜 𝐛𝐚̣𝐧 𝐤𝐡𝐨𝐚 𝐂𝐨̂𝐧𝐠 𝐧𝐠𝐡𝐞̣̂ 𝐭𝐡𝐨̂𝐧𝐠 𝐭𝐢𝐧, 𝐜𝐮̀𝐧𝐠 𝐦𝐨̣̂𝐭 𝐬𝐨̂́ 𝐥𝐮̛𝐮 𝐲́</h6>                                    
-                                <p>(icon) ngày</p>
-                               <button>Xem thêm</button>
+                                <p>19/05/2024</p>
+                                <button class="btn"><a href="TB_Open.html">Xem thêm</a></button>
                             </div>
                         </li>
                         <li>
                             <a><img src="Image_TTTBB/seminar.webp"></a>
                             <div>
                                 <h6>Thông báo mở form đăng kí tham gia seminar"“KNOWLEDGE, SKILLS AND APPLICATIONS”</h6>
-                                <p>(icon) ngày</p>
-                               <button>Xem thêm</button>
+                                <p>16/03/2024</p>
+                                <button class="btn"><a href="TB_ApplySeminarKnowlege.html">Xem thêm</a></button>
                             </div>
                         </li>
                         <li>
                             <a><img src="Image_TTTBB/tuyentv.webp"></a>
                             <div>
                                 <h6>CLB HỖ TRỢ LẬP TRÌNH TUYỂN THÀNH VIÊN ĐỢT 2 - NĂM HỌC 2023-2024</h6>                                    
-                                <p>(icon) ngày</p>
-                               <button>Xem thêm</button>
+                                <p>15/01/2024</p>
+                                <button class="btn"><a href="TB_ApplyD2.html">Xem thêm</a></button>
                             </div>
                         </li>
                         <li>
                             <a><img src="Image_TTTBB/close.webp"></a>
                             <div>
                                 <h6>Thông báo tạm dừng phòng tự học E202!!!</h6>
-                                <p>(icon) ngày</p>
-                               <button>Xem thêm</button>
+                                <p>28/11/2023</p>
+                                <button class="btn"><a href="TB_tamdungphongtuhoc.html">Xem thêm</a></button>
+                            </div>
+                        </li>
+                        <li>
+                            <a><img src="Image_TTTBB/close.webp"></a>
+                            <div>
+                                <h6>Thông báo tạm dừng phòng tự học E202!!!</h6>
+                                <p>28/11/2023</p>
+                                <button class="btn"><a href="TB_tamdungphongtuhoc.html">Xem thêm</a></button>
                             </div>
                         </li>
                     </ul>
                 </div>
+                </div>
             </div>
-        </nav>
+        </nav>-->
     </section>
+    <section class="ThongBaoList">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <nav>
+                    <div class="first">
+                        <div class="title">
+                            <h6>SPIT</h6>
+                            <h1>THÔNG BÁO</h1>
+                            <hr>
+                        </div>
+                    </div>
+                </nav>
+              <div>
+              <div class="thongbao-list">
+                <!-- Danh sách thông báo sẽ được hiển thị ở đây -->
+              </div>
+              <div class="pagination">
+                <button class="prev">Trước</button>
+                <button class="next">Sau</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- Add an ID to the category selection element -->
+  <script src="TT_TB.js"></script>
+  <script src="TB.js"></script>
+  
 
     <!-- Semi_Footer-->
     <section class="Semi_Footer">
@@ -250,6 +253,7 @@
         </div>
         <div>All Rights Reserved. </div>
     </section>
+    
 
 </body>
 </html>
