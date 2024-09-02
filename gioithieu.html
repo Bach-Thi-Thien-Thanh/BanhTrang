@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
 </head>
 
 <body class="TQ">
@@ -67,7 +68,7 @@
     </script>
     <DIV id="container" class="TQ1"></DIV>
     <!--Body-->
-    <section class="TQ1 GioiThieu">
+    <section class="TQ1 GioiThieu show-animate">
         <div>
             <h1>CLB HỖ TRỢ LẬP TRÌNH</h1>
             <p>
@@ -98,9 +99,9 @@
     </section>
     
     <!--Ban Chủ Nhiệm Check-->
-    <section class="TQ1 BCN">
-        <h1>THÀNH VIÊN BAN CHỦ NHIỆM</h1>
-        <div class="Flex">
+    <section class="TQ1 BCN show-animate">
+        <h1 class="setanimation">THÀNH VIÊN BAN CHỦ NHIỆM</h1>
+        <div class="Flex setanimation">
             <div class="Images CheckThanh">
                 <img src="image_gioithieu/shape.png" class="shape">
                 <img src="image_gioithieu/athanh.png" class="image">
@@ -110,7 +111,7 @@
                 <p>CHỦ NHIỆM CLB</p>
             </div>
         </div>
-        <div class="Flex">
+        <div class="Flex setanimation">
             <div class="Images CheckToan1">
                 <img src="image_gioithieu/shape.png" class="shape">
                 <img src="image_gioithieu/toan.png" class="image">
@@ -120,7 +121,7 @@
                 <p>PHÓ CHỦ NHIỆM CLB</p>
             </div>
         </div>
-        <div class="Flex">
+        <div class="Flex setanimation">
            
             <div class="Images CheckThanh">
                 <img src="image_gioithieu/shape.png" class="shape">
@@ -131,7 +132,7 @@
                 <p>PHÓ CHỦ NHIỆM CLB</p>
             </div>
         </div>
-        <div class="Flex">
+        <div class="Flex setanimation">
             
             <div class="Images CheckToan1">
                 <img src="image_gioithieu/shape.png" class="shape">
@@ -146,9 +147,9 @@
 
 
     <!--Thành viên check-->
-    <section class="TQ1 ThanhVien">
-        <h1>CÁC THÀNH VIÊN TRONG CLB</h1>
-        <div>
+    <section class="TQ1 ThanhVien show-animate">
+        <h1 class="setanimation">CÁC THÀNH VIÊN TRONG CLB</h1>
+        <div class="setanimation">
             <h3 class="Khoa">Khóa 1</h3>
             <div class="Product_ThanhVien">
                 <div class="product" data-name="p-1">
@@ -213,7 +214,7 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="setanimation">
             <h3 class="Khoa">Khóa 2</h3>
             <div class="Product_ThanhVien">
                 <div class="product" data-name="p-13">
@@ -550,17 +551,18 @@
         createSnowflakes();
     </script>
 
-
-
-    <script>
-        ScrollReveal({ 
-            reset: true,
-            distance: '60px',
-            duration: 2500,
-            delay: 200
-         });
-        ScrollReveal().reveal('.GioiThieu, .BCN, .ThanhVien', { delay: 200, origin:'left' });
-    </script>
+    <script src="gioithieu.js"></script>
+    <!-- <script src="setanimation.js"></script> -->
+   <script>
+        ScrollReveal({
+            reset:true,
+            distance:'60px',
+            duration:2500,
+            delay:400
+        });
+        ScrollReveal().reveal('.show-animate',{delay:500,origin:'left',interval:200});
+        ScrollReveal().reveal('.setanimation',{delay:500,origin:'left',interval:200});
+   </script>
 </body>
 
 </html>

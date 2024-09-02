@@ -14,6 +14,7 @@
         rel="stylesheet">
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
 </head>
 
 <body>
@@ -73,7 +74,7 @@
         <!--BODY-->
         <div class="TQ1" id="container"></div>
         <!-- Hoat dong tro giang -->
-        <section class="TroGiang ">
+        <section class="TroGiang show-animate">
             <h6>SPIT</h6>
             <H1 class="hd">HOẠT ĐỘNG TRỢ GIẢNG</H1>
             <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="">
@@ -91,10 +92,10 @@
             </div>
         </section>
         <!-- Hoat dong Seminar -->
-        <section class="Seminar ">
+        <section class="Seminar show-animate">
             <h6>SPIT</h6>
             <H1>HOẠT ĐỘNG SEMINAR</H1>
-            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="">
+            <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" >
             <div class="TQ1 flex">
                 <div class="buttonSer prevSer"><i class="fa-solid fa-angles-left"></i></div>
                 <div class="containerSer">
@@ -132,7 +133,7 @@
             </div>
         </section>
         <!-- Hoat dong cuoc thi -->
-        <section class="Contest">
+        <section class="Contest show-animate">
             <h6>SPIT</h6>
             <H1>HOẠT ĐỘNG CONTEST</H1>
             <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" class="imgchan">
@@ -251,7 +252,7 @@
                 </ul>
             </div>
         </section>
-        <section class="NgoaiKhoa">
+        <section class="NgoaiKhoa show-animate">
             <h6>SPIT</h6>
             <H1>HOẠT ĐỘNG NGOẠI KHÓA</H1>
             <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" class="imgchan">
@@ -294,7 +295,7 @@
                 </ul>
             </div>
         </section>
-        <section class="HdKhac">
+        <section class="HdKhac show-animate">
             <h6>SPIT</h6>
             <H1>HOẠT ĐỘNG KHÁC</H1>
             <img src="/BanhTrang/image_HoatDong/Thiết kế chưa có tên (1).png" alt="" class="imgchan">
@@ -328,53 +329,73 @@
         </section>
         <script src="hoatdong.js"></script>
         <!-- Semi_Footer-->
-        <section class="TQ1 Footer">
-            <h1>SPIT</h1>
-            <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
-            <div>
+       <section class="Footer" id="star-container">
+        <h1>SPIT</h1>
+        <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
+        <div class="flex">
+            <div id="animation"><img src="image_gioithieu/SPIT FRONT- END (1).png" alt=""></div>
+            <div class="Info">
                 <ul>
-                    <li>
-                        <h3>Địa chỉ:</h3>
-                        <p>Phòng E202, Đại học Khoa học Huế</p>
-                    </li>
-                    <li>
-                        <h3>Email:</h3>
-                        <p>clbhtlt.ithusc@gmail.com</p>
+                    <div>
+                        <li class="text">Liên hệ</li>
+                        <li><i class="fa-solid fa-map-location-dot"></i> Phòng E202, Đại học Khoa học Huế</li>
+                        <li><i class="fa-solid fa-envelopes-bulk"></i> clbhtlt.ithusc@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> 0702291317</li>
+                    </div>
+                    <div>
+                        <li class="text">Liên kết</li>
+                        <div>
+                            <li class="text2"><i class="fa-solid fa-link"></i><a href="gioithieu.html"> Giới thiệu</a></li>
+                            <li class="text2"><i class="fa-solid fa-link"></i><a href="hoatdong.html"> Hoạt động</a></li>
+                            <li class="text2"><i class="fa-solid fa-link"></i><a href="TT_TB.html"> Tin tức</a></li>
+                            <li class="text2"><i class="fa-solid fa-link"></i><a href="#"> Tuyển thành viên</a></li>
+                        </div>
+                    </div>
+                    <div>
+                        <li class="text">Mạng xã hội</li>
+                        <div class="flex">
+                            <button> 
+                                <a href="https://www.facebook.com/clbhtlt.ithusc"><i class="fa-brands fa-facebook-f"></i></a></button>
+                            <button><a href="https://discord.gg/YrMw4fqG"><i class="fa-brands fa-discord"></i></a></button>
+                            <button><a href="#"><i class="fa-solid fa-envelopes-bulk"></i></a></button>
+                        </div>
 
-                    </li>
-                    <li>
-                        <h3>Hotline:</h3>
-                        <p>070 229 1317 - 0934 766 830</p>
-                    </li>
-                    <li>
-                        <h3>Fanpage:</h3>
-                        <p>https://www.facebook.com/clbhtlt.ithusc</p>
-                    </li>
+                    </div>
                 </ul>
             </div>
-            <div>
-                <button> <i class="fa-brands fa-facebook-f"></i></button>
-                <h1 class="gachchan">
-
-                </h1>
-            </div>
-            <div>
-                Home . About Us . Contact Us . Blog
-            </div>
-            <div>All Rights Reserved. </div>
-        </section>
-    </div>
 
 
+        </div>
+        <div>
+            Home . About Us . Contact Us . Blog
+        </div>
+        <div>All Rights Reserved. </div>
+    </section>
+    <script>
+        function createSnowflakes() {
+            const container = document.getElementById('star-container');
+            for (let i = 0; i < 100; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.classList.add('snowflake');
+                snowflake.style.left = `${Math.random() * container.clientWidth}px`;
+                snowflake.style.top = `${Math.random() * container.clientHeight}px`;
+                container.appendChild(snowflake);
+            }
+        }
+
+        createSnowflakes();
+    </script>
     <script>
         ScrollReveal({
-            reset: true,
-            distance: '60px',
-            duration: 2500,
-            delay: 200
+            reset:true,
+            distance:'100px',
+            duration:2500,
+            delay:400
         });
-        ScrollReveal().reveal('.TroGiang, .Seminar, .Contest, .HdKhac, .NgoaiKhoa', { delay: 200, origin: 'left' });
-    </script>
+        ScrollReveal().reveal('.show-animate',{delay:500,origin:'left',interval:200});
+        // ScrollReveal().reveal('.setanimation',{delay:500,origin:'left',interval:200});
+   </script>
+    
 </body>
 
 </html>
