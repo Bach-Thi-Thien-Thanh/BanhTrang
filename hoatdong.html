@@ -306,7 +306,7 @@
                             <img src="image_HoatDong/anhtuyentv.jpg" alt="">
                             <div class="overlay">
                                 <h3>Mở cửa phòng tự học dành cho các bạn Khoa Công nghệ thông tin</h3>
-                                <button><a href="TB_Open.html">Xem thêm</a></button>
+                                <button><a href="TT_TuHocE202.html">Xem thêm</a></button>
                             </div>
                         </div>
                         <div class="cardKhac">
@@ -395,7 +395,27 @@
         ScrollReveal().reveal('.show-animate',{delay:500,origin:'left',interval:200});
         // ScrollReveal().reveal('.setanimation',{delay:500,origin:'left',interval:200});
    </script>
-    
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js" integrity="sha256-KsEqOvBiREcvw9DYxIjwLnlxLkidTaIS+hUS9UxuXQg=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('#backtop').fadeIn();
+                } else {
+                    $('#backtop').fadeOut();
+                }
+            });
+            $('#backtop').click(function() {
+                $('html, body').animate({
+                    scrollTop : 0
+                }, 500);
+            });
+        });
+    </script>
 </body>
 
 </html>

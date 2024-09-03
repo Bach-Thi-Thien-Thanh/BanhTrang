@@ -3,6 +3,21 @@
     padding: 0;
     font-family: 'Roboto','Arial','Helvetica','OpenSans';
 }
+#backtop {
+    width: 50px;
+    height: 50px;
+    background: tomato;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2;
+  }
 .TQ{
     width: 100%;
     background:linear-gradient(180deg,#A5CAD2,#07b5bb,#0a1a44);
@@ -536,7 +551,6 @@ nav .fa-bars{
 .Info{
     width: 70%;
     margin: 0;
-    z-index: 4;
 }
 .Info ul div li {
    text-align: left;
