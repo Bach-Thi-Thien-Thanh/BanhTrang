@@ -64,6 +64,12 @@ const newsData = {
       link: 'TT_SFE.html'
     },
     {
+      title: 'Chất lượng học tập được nâng cao',
+      date: '05/06/2024',
+      image: 'Image_TTTBB/Chatluong.jpg',
+      link: 'TT_Chatluong.html'
+    },
+    {
       title: 'CLB SPIT với Khóa bồi dưỡng giảng viên Khu vực miền Trung - Tây Nguyên năm 2024 "Thống kê hiện đại với phần mềm thống kê R"',
       date: '06/05/2024',
       image: 'Image_TTTBB/khoaboiduonggv.jpg',
@@ -94,8 +100,14 @@ const newsData = {
       link: 'TT_TuHocE202.html'
     },
     {
+      title: 'CLB Hỗ trợ Lập trình cùng với cuộc thi Olympic Tin học Sinh viên Việt Nam lần thứ 32 - Procon Vietnam - ICPC Asia Huế City 2023',
+      date: '10/12/2023',
+      image: 'Image_TTTBB/OlympicTinHoc202.jpg',
+      link: 'TT_OlympicTinHoc202.html'
+    },
+    {
       title: 'CHÀO MỪNG TÂN THÀNH VIÊN SPIT THẾ HỆ F1',
-      date: '14/04/2024',
+      date: '05/10/2023',
       image: 'Image_TTTBB/TT_ChaoMungF1.jpg',
       link: 'TT_ChaoMungF1.html'
     }
@@ -123,7 +135,7 @@ function updateLatestNewsSection(newsItems) {
   }).join('');
 
   latestNewsSection.innerHTML = `
-            <ul>
+            <ul class = "block">
             ${newsHTML}
             </ul>
         
@@ -136,3 +148,21 @@ if (newsItems.length > 4) { // adjust the number to your liking
   latestNewsSection.style.maxHeight = '1000px'; // adjust the height to your liking
 }
 
+const imageGroup = document.querySelector('.image-group');
+const images = imageGroup.querySelectorAll('img');
+const prevButton = document.querySelector('#prev');
+const nextButton = document.querySelector('#next');
+
+let currentIndex = 0;
+
+prevButton.addEventListener('click', () => {
+    images[currentIndex].classList.add('hidden');
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    images[currentIndex].classList.remove('hidden');
+});
+
+nextButton.addEventListener('click', () => {
+    images[currentIndex].classList.add('hidden');
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.remove('hidden');
+});

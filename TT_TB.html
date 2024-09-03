@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
 </head>
-<body>
-    <section class="header">
+<body class="TQ" id = "wrapper">
+    <section class="header TQ1">
         <nav>
             <a><img src="Image_TTTBB/logo.jpg" class="imglogo"></a>
             <div class="nav-links" id="navLinks">
@@ -50,7 +53,7 @@
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <p>TIN TỨC - THÔNG BÁO</p>
+            <p>TIN TỨC- THÔNG BÁO</p>
         </div>
     </section>
 
@@ -65,9 +68,7 @@
     </script>
     <!-- Mid -->
 
-    <section class="Mid">
-        <!-- Tin Tuc  --> 
-        <nav class="TinTuc">
+    <section class="TinTuc">
             <div class="first">
                 <div class="title">
                     <h6>SPIT</h6>
@@ -76,18 +77,17 @@
                 </div>
                 
             </div>
-            <div class="bd">
             <div class="main">
                 <div class="content">
                     <a><img src="Image_TTTBB/SPIT_FRONT-_END-0700384.webp"></a>
-                    <h3>CUỘC THI “SPIT FRONT END”</h3>
+                    <h4>CUỘC THI “SPIT FRONT END”</h4>
                     <h6>12/07/2024</h6>
                     <p> Nhằm mục đích tạo ra một sân chơi sáng tạo và phát huy tinh thần tự học, tìm hiểu của các bạn trong CLB Hỗ trợ Lập trình (SPIT), từ đó tìm ra được bài thi sử dụng làm trang web của CLB sau này, Ban Chủ nhiệm CLB SPIT Khóa 1 tổ chức cuộc thi “SPIT Front End” lần thứ nhất”........</p>
                     <button class="btn"><a href="TT_SFE.html">Xem thêm</a></button>
                 </div>
                 <div class="content">
                     <a><img src="Image_TTTBB/Untitled-0950664.webp"></a>
-                    <h3>CLB HỖ TRỢ LẬP TRÌNH CÙNG VỚI CHUYÊN MỤC NHỊP SỐNG TRẺ THỪA THIÊN HUẾ</h3>
+                    <h4>CLB HỖ TRỢ LẬP TRÌNH CÙNG VỚI CHUYÊN MỤC NHỊP SỐNG TRẺ THỪA THIÊN HUẾ</h4>
                     <h6>14/04/2024</h6>
                     <p>CLB Hỗ trợ Lập trình được góp mặt trong chuyên mục “Nhịp sống trẻ Thừa Thiên Huế” trên sóng truyền hình TRT là một niềm tự hào rất lớn đối với CLB
                         🎥 Ngay sau đây xin mời mọi người cùng xem phóng sự này nhé!.................</p>
@@ -113,8 +113,6 @@
                   
             </div>
             </div>
-        </div>
-        </nav>
         <!--<nav class="ThongBao">
             <div class="first">
                 <div class="title">
@@ -208,52 +206,91 @@
   <script src="TB.js"></script>
   
 
-    <!-- Semi_Footer-->
-    <section class="Semi_Footer">
-        <h6>SPIT</h6>
-        <h1>CÁC CÂU HỎI LIÊN QUAN ĐẾN HỌC TẬP VÀ CLB</h1>
-        <button>
-            Nhấp tại đây 
-             <i class="fa-regular fa-hand-point-up fa-1x"></i>
-            </button>
-        
-    </section>
-    <section class="Footer">
-        <h1>SPIT</h1>
-        <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
-        <div>
+  <section class="Footer" id="star-container">
+    <h1>SPIT</h1>
+    <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
+    <div class="flex">
+        <div id="animation"><img src="image_gioithieu/SPIT FRONT- END (1).png" alt=""></div>
+        <div class="Info">
             <ul>
-                <li>
-                    <h3>Địa chỉ:</h3>
-                    <p>Phòng E202, Đại học Khoa học Huế</p>
-                </li>
-                <li>
-                    <h3>Email:</h3>
-                    <p>clbhtlt.ithusc@gmail.com</p>
+                <div>
+                    <li class="text">Liên hệ</li>
+                    <li><i class="fa-solid fa-map-location-dot"></i> Phòng E202, Đại học Khoa học Huế</li>
+                    <li><i class="fa-solid fa-envelopes-bulk"></i> clbhtlt.ithusc@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> 0702291317</li>
+                </div>
+                <div>
+                    <li class="text">Liên kết</li>
+                    <div>
+                        <li class="text1"><i class="fa-solid fa-link"></i><a href="gioithieu.html"> Giới thiệu</a></li>
+                        <li class="text1"><i class="fa-solid fa-link"></i><a href="hoatdong.html"> Hoạt động</a></li>
+                        <li class="text1"><i class="fa-solid fa-link"></i><a href="TT_TB.html"> Tin tức</a></li>
+                        <li class="text1"><i class="fa-solid fa-link"></i><a href="#"> Tuyển thành viên</a></li>
+                    </div>
+                </div>
+                <div>
+                    <li class="text">Mạng xã hội</li>
+                    <div class="flex">
+                        <button> 
+                            <a href="https://www.facebook.com/clbhtlt.ithusc"><i class="fa-brands fa-facebook-f"></i></a></button>
+                        <button><a href="https://discord.gg/YrMw4fqG"><i class="fa-brands fa-discord"></i></a></button>
+                        <button><a href="#"><i class="fa-solid fa-envelopes-bulk"></i></a></button>
+                    </div>
 
-                </li>
-                <li>
-                    <h3>Hotline:</h3>
-                    <p>070 229 1317 - 0934 766 830</p>
-                </li>
-                <li>
-                    <h3>Fanpage:</h3>
-                    <p>https://www.facebook.com/clbhtlt.ithusc</p>
-                </li>
+                </div>
             </ul>
         </div>
-        <div>
-            <button>  <i class="fa-brands fa-facebook-f"></i></button>
-            <h1 class="gachchan">
 
-            </h1>
-        </div>
-        <div>
-             Home  .  About Us  .  Contact  Us  .  Blog
-        </div>
-        <div>All Rights Reserved. </div>
-    </section>
-    
 
+    </div>
+    <div>
+        Home . About Us . Contact Us . Blog
+    </div>
+    <div>All Rights Reserved. </div>
+</section>
+<script>
+    function createSnowflakes() {
+        const container = document.getElementById('star-container');
+        for (let i = 0; i < 100; i++) {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+            snowflake.style.left = `${Math.random() * container.clientWidth}px`;
+            snowflake.style.top = `${Math.random() * container.clientHeight}px`;
+            container.appendChild(snowflake);
+        }
+    }
+
+    createSnowflakes();
+</script>
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 200
+     });
+    ScrollReveal().reveal('.TinTuc, .ThongBaoList', { delay: 200, origin:'left' });
+</script>
+<div id="backtop">
+    <i class="fas fa-chevron-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js" integrity="sha256-KsEqOvBiREcvw9DYxIjwLnlxLkidTaIS+hUS9UxuXQg=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function() {
+            $('html, body').animate({
+                scrollTop : 0
+            }, 500);
+        });
+    });
+</script>
 </body>
 </html>

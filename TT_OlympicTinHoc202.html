@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="TT_TB.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a><img src="Image_TTTBB/logo.jpg" class="imglogo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark fa-1x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="hoatdong.html">Hoạt động</a>
+                    </li>
+                    <li>
+                        <a href="TT_TB.html">Tin tức - Thông báo</a>
+                    </li>
+                    <li>
+                        <a href="#">Tuyển thành viên</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="headericon">
+                <ul>
+                    <li><a href="https://www.facebook.com/clbhtlt.ithusc">
+                            <i class="fa-brands fa-facebook fa-2x"></i>
+                        </a></li>
+                </ul>
+                <ul>
+                    <li><a href="clbhtlt.ithusc@gmail.com">
+                            <i class="fa-duotone fa-solid fa-envelopes-bulk fa-2x"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <p>TIN TỨC - THÔNG BÁO</p>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- Mid -->
+    <section class="Mid">
+        <!-- Tin Tuc  -->
+        <div class="TinTuc">
+            <div class="first">
+                <div class="title">
+                    <h6>SPIT</h6>
+                    <h1>TIN TỨC</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="main">
+                <div class="content">
+                    <div class="image-group">
+                        <img src="Image_TTTBB/OlympicTinHoc202.jpg" alt="" id="current-image">
+                        <!-- Add more images here -->
+                        <img src="Image_TTTBB/OlympicTinHoc2021.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2022.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2023.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2024.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2025.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2026.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2027.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2028.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc2029.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc20210.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc20211.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc20212.jpg" alt="" class="hidden">
+                        <img src="Image_TTTBB/OlympicTinHoc20213.jpg" alt="" class="hidden">
+                    </div>
+                    <div class="buttons">
+                        <button id="prev"><i class="fa-solid fa-left-long"></i></button>
+                        <button id="next"><i class="fa-solid fa-right-long"></i></button>
+                    </div>
+                    <h3>🎉 CLB Hỗ trợ Lập trình cùng với cuộc thi Olympic Tin học Sinh viên Việt Nam lần thứ 32 - Procon Vietnam - ICPC Asia Huế City 2023 🎉</h3>
+                    <h6>10/12/2023</h6>
+                    <p>
+                        🌟 Năm nay, trường Đại học Khoa học - Đại học Huế vinh dự là đơn vị đăng cai tổ chức kỳ thi Olympic Tin học Sinh viên Việt Nam lần thứ 32, kỳ thi Procon Việt Nam và kỳ thi Lập trình Sinh viên Quốc tế ICPC khu vực châu Á - Thành phố Huế năm 2023. Diễn ra thành công tốt đẹp từ ngày 5/12/2023 đến ngày 8/12/2023, kỳ thi đã thắp lên ngọn lửa đam mê tin học của các tài năng trẻ quy mô quốc gia và quốc tế, để lại cho các đoàn tham gia nhiều dấu ấn sâu sắc.<br>
+                        👏 CLB Hỗ trợ Lập trình xin được gửi lời chúc mừng đến toàn thể các bạn thí sinh tham gia kỳ thi vừa qua và đặc biệt là các anh là ban chủ nhiệm, là thành viên của CLB Hỗ trợ Lập trình đã cố gắng hết mình cho kỳ thi vừa qua. Trong số hơn 600 thí sinh đến từ 78 trường Đại học trong nước và Quốc tế trải qua 3 ngày tranh tài, CLB Hỗ trợ Lập trình rất tự hào khi có 3 thành viên đã xuất sắc đạt giải trong kỳ thi Olympic Tin học Sinh viên Việt Nam lần thứ 32 - Procon Vietnam - ICPC Asia Hue City 2023 vừa qua:<br>
+                           🥈 Anh Lê Phi Phát - giải Nhì Olympic khối chuyên Tin<br>
+                           🥉 Anh Hoàng Hào - giải Ba Olympic khối chuyên Tin<br>
+                           🥉 Anh Trương Đoàn - giải Ba Olympic khối chuyên Tin<br>
+                           Bên cạnh đó, chương trình cũng đã công bố kết quả thi của cuộc thi ICPC National Vietnam 2023. CLB cũng rất tự hào khi đội HUSC.GreedForSpeed đã đạt Giải ba Toàn quốc với các thành viên:<br>
+                           🏅 Anh Lê Ngọc Hoàng<br>
+                           🏅 Anh Lê Sỹ Toàn<br>
+                           🏅 Anh Ngô Văn Hải<br>
+                        ✨ Thành tích của các anh chính là niềm tự hào lớn cho nhà trường, cũng như các thế hệ tiếp theo của CLB Hỗ trợ Lập trình. Một lần nữa CLB xin chúc mừng các anh và mong các anh sẽ gặt hái thêm nhiều thành tích hơn nữa trong các kỳ thi tiếp theo. <br>
+                        🔌 Để có được sự thành công của chuỗi kỳ thi vừa qua, không thể không kể đến đóng góp của các thành viên trong đội Kỹ thuật đồng thời là thành viên của CLB Hỗ trợ Lập trình. Đội Kỹ thuật gồm những người đứng sau từng dàn máy tính được hoạt động một cách ổn định và tối ưu, đảm bảo mọi sự cố kỹ thuật trong kỳ thi được xử lý kịp thời và cũng là những giám sát viên, kết nối các đội thi. Những công lao này là vô cùng đáng giá để tạo nên môi trường thi đấu lập trình công bằng, chuyên nghiệp.<br>
+                        📷 Bây giờ, hãy cùng nhìn lại những khoảnh khắc đáng nhớ trong 4 ngày vừa qua cùng CLB chúng tớ nhé!<br>
+                        👉 P/s: Phòng tự học của CLB Hỗ trợ Lập trình cũng sẽ hoạt động trở lại sau chuỗi kỳ thi quan trọng này. Rất vui khi được chào đón mọi người 🤗<br>
+                        -------------------------------------<br>
+                        🌠Câu Lạc Bộ Hỗ trợ Lập trình (SPIT)<br>
+                        📥Fanpage: https://www.facebook.com/clbhtlt.ithusc<br>
+                        📧Email: [clbhtlt.ithusc@gmail.com]<br>
+                        📞Hotline: 070 229 1317 - 0934 766 830 - 0934 094 936</p>
+                </div>
+
+            </div>
+            <div class="extra">
+                <div class="select">
+                    <p>Chuyên Mục</p>
+                    <select id="category-select">
+                        <option value="SPIT CONTEST">SPIT CONTEST</option>
+                        <option value="SPIT SEMINAR">SPIT SEMINAR</option>
+                        <option value="SPIT SUPPORT">SPIT SUPPORT</option>
+                        <option value="KHÁC">KHÁC</option>
+                    </select>
+                </div>
+                <h3>TIN TỨC MỚI NHẤT</h3>
+                    <hr>
+                  <!-- Add an ID to the "Tin Tuc Moi Nhat" section -->
+                  <div id="latest-news" class="new">
+                    
+                  </div>
+                  
+            </div>
+    </section>
+
+    <script src="TT_TB.js"></script>
+    <section class="Footer" id="star-container">
+        <h1>SPIT</h1>
+        <h4>"LẬP TRÌNH KHÔNG KHÓ CÓ SPIT LO"</h4>
+        <div class="flex">
+            <div id="animation"><img src="image_gioithieu/SPIT FRONT- END (1).png" alt=""></div>
+            <div class="Info">
+                <ul>
+                    <div>
+                        <li class="text">Liên hệ</li>
+                        <li><i class="fa-solid fa-map-location-dot"></i> Phòng E202, Đại học Khoa học Huế</li>
+                        <li><i class="fa-solid fa-envelopes-bulk"></i> clbhtlt.ithusc@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i> 0702291317</li>
+                    </div>
+                    <div>
+                        <li class="text">Liên kết</li>
+                        <div>
+                            <li class="text1"><i class="fa-solid fa-link"></i><a href="gioithieu.html"> Giới thiệu</a></li>
+                            <li class="text1"><i class="fa-solid fa-link"></i><a href="hoatdong.html"> Hoạt động</a></li>
+                            <li class="text1"><i class="fa-solid fa-link"></i><a href="TT_TB.html"> Tin tức</a></li>
+                            <li class="text1"><i class="fa-solid fa-link"></i><a href="#"> Tuyển thành viên</a></li>
+                        </div>
+                    </div>
+                    <div>
+                        <li class="text">Mạng xã hội</li>
+                        <div class="flex">
+                            <button> 
+                                <a href="https://www.facebook.com/clbhtlt.ithusc"><i class="fa-brands fa-facebook-f"></i></a></button>
+                            <button><a href="https://discord.gg/YrMw4fqG"><i class="fa-brands fa-discord"></i></a></button>
+                            <button><a href="#"><i class="fa-solid fa-envelopes-bulk"></i></a></button>
+                        </div>
+    
+                    </div>
+                </ul>
+            </div>
+    
+    
+        </div>
+        <div>
+            Home . About Us . Contact Us . Blog
+        </div>
+        <div>All Rights Reserved. </div>
+    </section>
+    <script>
+        function createSnowflakes() {
+            const container = document.getElementById('star-container');
+            for (let i = 0; i < 100; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.classList.add('snowflake');
+                snowflake.style.left = `${Math.random() * container.clientWidth}px`;
+                snowflake.style.top = `${Math.random() * container.clientHeight}px`;
+                container.appendChild(snowflake);
+            }
+        }
+    
+        createSnowflakes();
+    </script>
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js" integrity="sha256-KsEqOvBiREcvw9DYxIjwLnlxLkidTaIS+hUS9UxuXQg=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('#backtop').fadeIn();
+                } else {
+                    $('#backtop').fadeOut();
+                }
+            });
+            $('#backtop').click(function() {
+                $('html, body').animate({
+                    scrollTop : 0
+                }, 500);
+            });
+        });
+    </script>
+</body>
+
+</html>
