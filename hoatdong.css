@@ -16,7 +16,7 @@
     bottom: 40px;
     right: 20px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 5;
   }
 .TQ {
     width: 100%;
@@ -855,6 +855,7 @@ nav .fa-bars {
 .Info{
     width: 70%;
     margin: 0;
+    z-index: 4;
 }
 .Info ul div li {
    text-align: left;

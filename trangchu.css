@@ -15,7 +15,7 @@
     bottom: 40px;
     right: 20px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 5;
   }
 .bocuc{
     width: 100%;
@@ -1106,6 +1106,7 @@ nav .fa-bars{
 .Info{
     width: 70%;
     margin: 0;
+    z-index: 4;
 }
 .Info ul div li {
    text-align: left;
@@ -1148,7 +1149,6 @@ nav .fa-bars{
     background-repeat: no-repeat;
     animation: snowfall 15s infinite;
     z-index: 1;
-
     top:0;
     left:0
   }
