@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
 </head>
-<body class="TQ">
+<body class="TQ" id = "wrapper">
     <section class="header TQ1">
         <nav>
             <a><img src="Image_TTTBB/logo.jpg" class="imglogo"></a>
@@ -52,7 +53,7 @@
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <p>TIN TỨC - THÔNG BÁO</p>
+            <p>TIN TỨC- THÔNG BÁO</p>
         </div>
     </section>
 
@@ -79,14 +80,14 @@
             <div class="main">
                 <div class="content">
                     <a><img src="Image_TTTBB/SPIT_FRONT-_END-0700384.webp"></a>
-                    <h3>CUỘC THI “SPIT FRONT END”</h3>
+                    <h4>CUỘC THI “SPIT FRONT END”</h4>
                     <h6>12/07/2024</h6>
                     <p> Nhằm mục đích tạo ra một sân chơi sáng tạo và phát huy tinh thần tự học, tìm hiểu của các bạn trong CLB Hỗ trợ Lập trình (SPIT), từ đó tìm ra được bài thi sử dụng làm trang web của CLB sau này, Ban Chủ nhiệm CLB SPIT Khóa 1 tổ chức cuộc thi “SPIT Front End” lần thứ nhất”........</p>
                     <button class="btn"><a href="TT_SFE.html">Xem thêm</a></button>
                 </div>
                 <div class="content">
                     <a><img src="Image_TTTBB/Untitled-0950664.webp"></a>
-                    <h3>CLB HỖ TRỢ LẬP TRÌNH CÙNG VỚI CHUYÊN MỤC NHỊP SỐNG TRẺ THỪA THIÊN HUẾ</h3>
+                    <h4>CLB HỖ TRỢ LẬP TRÌNH CÙNG VỚI CHUYÊN MỤC NHỊP SỐNG TRẺ THỪA THIÊN HUẾ</h4>
                     <h6>14/04/2024</h6>
                     <p>CLB Hỗ trợ Lập trình được góp mặt trong chuyên mục “Nhịp sống trẻ Thừa Thiên Huế” trên sóng truyền hình TRT là một niềm tự hào rất lớn đối với CLB
                         🎥 Ngay sau đây xin mời mọi người cùng xem phóng sự này nhé!.................</p>
@@ -270,6 +271,26 @@
      });
     ScrollReveal().reveal('.TinTuc, .ThongBaoList', { delay: 200, origin:'left' });
 </script>
-
+<div id="backtop">
+    <i class="fas fa-chevron-up"></i>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js" integrity="sha256-KsEqOvBiREcvw9DYxIjwLnlxLkidTaIS+hUS9UxuXQg=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function() {
+            $('html, body').animate({
+                scrollTop : 0
+            }, 500);
+        });
+    });
+</script>
 </body>
 </html>

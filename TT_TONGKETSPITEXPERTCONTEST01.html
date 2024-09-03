@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="TT.css">
+    <link rel="stylesheet" href="TT_TB.css">
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -81,7 +81,16 @@
             </div>
             <div class="main">
                 <div class="content">
-                    <a><img src="Image_TTTBB/TONGKETSPITEXPERTCONTEST01.jpg"></a>
+                    <div class="image-group">
+                        <img src="Image_TTTBB/TONGKETSPITEXPERTCONTEST01.jpg" alt="" id="current-image">
+                        <!-- Add more images here -->
+                        <img src="Image_TTTBB/TONGKETSPITEXPERTCONTEST01(1).jpg" alt="" class="hidden">
+                        
+                    </div>
+                    <div class="buttons">
+                        <button id="prev"><i class="fa-solid fa-left-long"></i></button>
+                        <button id="next"><i class="fa-solid fa-right-long"></i></button>
+                    </div>
                     <h3>TỔNG KẾT SPIT EXPERT CONTEST 01</h3>
                     <h6>21/03/2024</h6>
                     <p>
@@ -89,8 +98,8 @@
                         ✨ SPIT Expert Contest 01 đã nhận được sự ủng hộ và tham gia nhiệt tình của 121 bạn thí sinh, đây là một con số rất ấn tượng đối với CLB chúng mình! Ở lần trở lại này, bộ đề mà ban chuyên môn của SPIT mang đến cho các thí sinh đã thách thức hơn rất nhiều. Vượt qua số lượng thí sinh và độ khó của contest lần này, CLB xin được chúc mừng bạn st4rↄh đã xuất sắc giành ngôi đầu bảng với số điểm tuyệt đối 400/400!<br>
                         👉 Dưới đây là bảng xếp giải của SPIT Expert Contest 01 lần này. Giải thưởng sẽ được trao cho các bạn vào buổi seminar của CLB diễn ra vào 14:00 chiều thứ 7, ngày 23/03/2024.<br>
                         💪 Với những bạn chưa đạt đúng phong độ trong contest vừa rồi thì hãy cứ tự tin và tiếp tục luyện tập để tham gia các contest sau nhé.<br>
-                        ✅ Lời giải của contest lần này đã được tổng hợp tại: https://drive.google.com/.../1qOiUuDkJjwNcMcHk0-f5jWEs...<br>
-                        🚫 Tuy nhiên, chúng mình cũng đã phát hiện được nhiều trường hợp gian lận được tổng hợp tại: https://docs.google.com/.../1iZrG9c1KdhihHfNtyx.../edit...<br>
+                        ✅ Lời giải của contest lần này đã được tổng hợp tại: <br>
+                        🚫 Tuy nhiên, chúng mình cũng đã phát hiện được nhiều trường hợp gian lận được tổng hợp tại: <br>
                         ⛔️ Những thí sinh có hành vi gian lận trong contest sẽ bị cảnh cáo và không tính kết quả làm bài, và bị cấm vĩnh viễn tài khoản trong lần gian lận tiếp theo.<br>
                         ❓ Nếu có bất kỳ thắc mắc nào, các bạn hãy mạnh dạn inbox trực tiếp page để được giải quyết trong thời gian sớm nhất nhé!<br>
                         🤗 SPIT xin chân thành cảm ơn các bạn đã dành thời gian quan tâm đến SPIT Contest và hẹn gặp lại các bạn trong các contest sắp tới!<br>
@@ -179,7 +188,27 @@
     
         createSnowflakes();
     </script>
-
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js" integrity="sha256-KsEqOvBiREcvw9DYxIjwLnlxLkidTaIS+hUS9UxuXQg=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('#backtop').fadeIn();
+                } else {
+                    $('#backtop').fadeOut();
+                }
+            });
+            $('#backtop').click(function() {
+                $('html, body').animate({
+                    scrollTop : 0
+                }, 500);
+            });
+        });
+    </script>
 </body>
 
 </html>
