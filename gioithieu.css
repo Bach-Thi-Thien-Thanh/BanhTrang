@@ -520,6 +520,9 @@ nav .fa-bars{
 }
 
  @media(max-width: 700px){
+    .TQ1{
+        max-width: 700px;
+    }
     #backtop {
         right: 220px;
       }
