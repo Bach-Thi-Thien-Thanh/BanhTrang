@@ -5,7 +5,9 @@
 }
 .TQ{
     width: 100%;
-    background:linear-gradient(180deg,#A5CAD2,#07b5bb,#0a1a44);
+    /* background:linear-gradient(180deg,#779399,#0a495b,#0a1a44); */
+    background:linear-gradient(180deg,#A5CAD2,#05999e,#0a1a44);
+
 
 }
 .Header{
@@ -336,6 +338,7 @@ nav .fa-bars{
 }
 .form .inputBox input::placeholder{
     color: #fff;
+    padding:10px;
 
 }
 .form .inputBox input[type="submit"]{
@@ -405,9 +408,10 @@ nav .fa-bars{
     box-shadow: 0 0 1rem #12f7ff;
 }
 .noidung  .td{
-    color: #fff;
+    color: #fffbfb;
     font-size: 25px;
     padding-top: 10px;
+    /* color: #333; */
 }
 .noidung p{
     color: #fff;
