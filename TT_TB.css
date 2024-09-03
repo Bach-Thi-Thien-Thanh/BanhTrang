@@ -322,6 +322,7 @@ nav .fa-bars{
     margin-top: 33px;
     margin-right: 4%;
     display: inline-block;
+    margin-bottom: 40px;
 }
 
 .first {
@@ -585,6 +586,8 @@ button a {
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
   }
   .ThongBaoList img {
     height: 50%;
@@ -594,7 +597,7 @@ button a {
   }
   
   .ThongBaoList .container {
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
   }
   
@@ -783,59 +786,140 @@ button a {
   font-weight: bold;
   background-color: #23527c;
 }
- @media(max-width: 700px){
-  #backtop {
-    right: 220px;
+
+
+@media(max-width: 1399px){
+  .text-box{
+    font-size: 60px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-30%,-30%);
+    text-align: center;
+}
+  .nav-links ul li{
+    display: block;
+}
+.nav-links ul li a{
+    font-size: 20px;
+    
+}
+.nav-links{
+    position:absolute;
+    background-color: rgb(157, 176, 180);
+    height: 100%;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+}
+nav .fa-regular{
+    display: block;
+    color: #003056;
+    padding: 10px 0px 1px;
+    font-size: large;
+    cursor: pointer;
+}
+nav .fa-bars{
+    display: block;
+}
+.nav-links ul{
+    padding: 20px;
+}
+.nav-links ul li a:hover{
+    color:  #003056;
+    size: 20px;
+   
+}
+.nav-links i {
+    padding: 20px;
+}
+
+}
+@media(max-width: 1199px) {
+  .text-box{
+    font-size: 50px;
   }
+  .Footer div ul{
+    display: block;
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+  .Info{
+      display: block;
+      width: 100%;
+  }
+  .flex{
+      float: left;
+      margin-bottom: 10px;
+  }
+  #animation{
+      width: 100%;
+  }
+  #animation img{
+      width: 120%;
+      animation: nudge 5s linear infinite alternate;
+      animation-direction: alternate;
+      margin-left: 20px;
+      margin-top: -20px;
+      
+  }
+}
+@media(max-width: 991px) {
+  .text-box{
+    font-size: 35px;
+  }
+  .TinTuc .main{
+    width: 100%;
+}
+.TinTuc .title {
+    width: 100%;
+}
+.TinTuc .extra{
+  margin-top: 20px;
+  width: 100%;
+}
+.ThongBao{
+  margin-left: 4%;
+  margin-top: 33px;
+  display:inline-block;
+  margin-right: 4%;
+}
+.ThongBao .main{
+  width: 100%;
+}
+.ThongBao .extra{
+  margin-top: 20px;
+  width: 100%;
+}
+.ThongBao .extra a {
+  width: 50%;
+}
+.ThongBao .new ul li div{ 
+  width: 65%;
+}
+.ThongBaoList .thongbao-list .thongbao {
+width: 40%;
+}
+}
+ @media(max-width: 700px){
+
     .header{
         min-height: 28vh;
     }        
   
     .text-box{
-      font-size: 22px;
-      top: 50%;
-      left: 40%;
-      transform: translate(-30%,-30%);
-      text-align: center;
+      font-size: 25px;
   }
-    .nav-links ul li{
-        display: block;
-    }
     .nav-links ul li a{
         font-size: 15px;
         
     }
     .nav-links{
-        position:absolute;
-        background-color: rgb(157, 176, 180);
-        height: 100vh;
         width: 200px;
-        top: 0;
         right: -200px;
-        text-align: left;
-        z-index: 2;
     }
-    nav .fa-regular{
-        display: block;
-        color: #003056;
-        padding: 10px 0px 1px;
-        font-size: large;
-        cursor: pointer;
-    }
-    nav .fa-bars{
-        display: block;
-    }
-    .nav-links ul{
-        padding: 20px;
-    }
-    .nav-links ul li a:hover{
-        color:  #003056;
-        size: 20px;
-       
-    }
-    .nav-links i {
-        padding: 20px;
-    }
+
     .imglogo{
         border-radius: 50%;
         width:50px ; height: auto;
@@ -843,22 +927,6 @@ button a {
     .flex{
       display: block;
   }
-    .Footer div ul{
-      display: block;
-      margin-left: 10px;
-      margin-right: 50px;
-    }
-    .Info{
-        display: block;
-        width: 100%;
-    }
-    .flex{
-        float: left;
-        margin-bottom: 10px;
-    }
-    #animation{
-        width: 100%;
-    }
     #animation img{
         width: 110%;
         animation: nudge 5s linear infinite alternate;
@@ -876,15 +944,6 @@ button a {
 
     .first {
         display: block;
-    }
-    .TinTuc .main{
-        width: 100%;
-    }
-    .TinTuc .title {
-        width: 100%;
-    }
-    .TinTuc .search {
-        width: 100%;
     }
     .title h6{
       font: 1em;
@@ -906,10 +965,6 @@ button a {
       .TinTuc .content button {
           padding: 5px 10px;
           font: 10px;
-      }
-      .TinTuc .extra{
-          margin-top: 20px;
-          width: 100%;
       }
     .select p {
       font-size: 15px;
