@@ -23,6 +23,8 @@
     font-family: 'Roboto','Arial','Helvetica','OpenSans';
     /* background-color: rgb(234, 228, 221); */
     background:linear-gradient(180deg,#A5CAD2,#07b5bb,#0a1a44);
+    /* margin-left: auto; */
+    
 }
 .Header{
     height: 1200px;
@@ -283,6 +285,8 @@ nav .fa-bars{
     margin: 0px auto;
     width: 1220px;
     display: flex;
+    justify-content: center;
+    /* width: 80%; */
 
 }
 .menu .main-menu .menuGT{
@@ -517,11 +521,12 @@ nav .fa-bars{
     box-shadow:0 8px 32px 0 rgba(0,0,0,0.37) ;
 }
 .card span p{
-    width: 400px;
+    /* width: 400px; */
     height: 100px;
     /* background-color: #837777; */
     font-size: 11px;
     margin-top: 4%;
+    text-align: justify;
 }
 .obutton{
     margin-top: -32%;
@@ -628,7 +633,7 @@ nav .fa-bars{
     align-items: center;
     justify-content: center;
     /* background-color: #E8B7D4; */
-    padding: 20px;
+   
     color: #003056;
     margin-top: 10px;
 }
@@ -668,6 +673,21 @@ nav .fa-bars{
     height: 250px;
 
 }
+
+#gif {
+    width: 100%; 
+    height: auto;
+    margin: 20px auto; 
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  
+  #gif img {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
 .inputQA .container2 h2{
     font-size: 1.5rem;
     margin-bottom: 20px;
@@ -735,6 +755,7 @@ nav .fa-bars{
     margin-top: -3rem;
     filter: drop-shadow(0 0 0 0.5rem #1797ff);
     text-align: center;
+    align-items: center;
    
     
 }
@@ -754,7 +775,7 @@ nav .fa-bars{
     /* backdrop-filter: blur(30px);
     flex-direction: column; */
     width: 90px;
-    height: 130px;
+    height: 150px;
     position: relative;
     box-shadow: 0 0 1rem #12f7ff;
      background-color: #003056;
@@ -762,10 +783,10 @@ nav .fa-bars{
 .product-card .pr-card  .price-name h4{
     margin-top: -30px;
     align-items: center;
-    justify-content: space-between;
-    padding: 35px;
+    padding-top: 35px;
     padding-bottom: .5rem;
     font-size: 1rem;
+    text-align: center;
 
 }
 .product-card .pr-card  .price-name p{
@@ -774,8 +795,9 @@ nav .fa-bars{
     font-weight: 500;
     margin: 1px -40px 1px; 
     /* padding: .1rem 0 0rem 0; */
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
+    text-align: center;
     /* margin-top: 5px; */
     /* background-color: rgb(44, 123, 192); */
 }
@@ -790,7 +812,7 @@ nav .fa-bars{
     margin: 0px auto;
     height: 400px;
     /* background-color: #008979; */
-    width: 400px;
+    width: 360px;
 
 }
 .slide-wrapper .swiper-pagination-bullet{
@@ -1255,8 +1277,104 @@ nav .fa-bars{
     .text-box h2{
         font-size: 30px;
     }
-    .main-menu{
-        width: 40%;
- 
+    .menu{
+        width: 700px;
+        height: 1500px;
+    }
+    .menu .main-menu{
+        width: 700px;
+        display: block;
+    }
+    .content{
+        display: block;
+        margin-top:730px;
+        margin-left: -30px;
+    }
+    .menu .main-menu .menuGT{
+        width: 45%;
+        margin-left: 60px;
+        border-radius: 10px;
+        height: 450px;
+        margin-bottom: 25px;
+    }
+    .menu .main-menu  .menuHD{
+        width: 45%;
+        margin-left: 60px;
+        border-radius: 10px;
+        height: 450px;
+        margin-bottom: 25px;
+    
+    }
+    .menu .main-menu .menuMD{
+        width: 45%;
+        margin-left: 60px;
+        border-radius: 10px;
+        height: 450px;
+        margin-bottom: 25px;
+
+    }
+    .menu .main-menu  .img{
+        width: 250px;
+        height: 300px;
+    }
+    .menu .main-menu  .MD{
+        width: 60%;
+        height: 150px;
+    }
+    .menu .main-menu  .MD h2{
+        font-size: 15px;
+    }
+    .menu .main-menu  .MD p{
+        font-size: 13px;
+        
+    }
+
+    .content .title-content1 h1 {
+        font-size: 30px;
+        margin-left: -5px;
+    }
+    .card {
+        display: block;
+        width: 450px;
+        height: 400px;
+       
+    }
+
+    .content .content1{
+        width: 500px;
+    }
+    .content1 .cards{
+        width: 530px;
+        margin-left: 0;
+    }
+    .content1 .card span .imgcard img{
+        width: 200px;
+        max-height: 180px;
+        margin-top: 15px;
+        margin-left: -25px;
+    }
+    .card span{
+        display: block;
+    }
+    .card .text4{
+        margin-top: 60px;
+        width: 310px;
+        height: 150px;
+        left: 180px;
+
+        
+    }
+    .card span  .text4 h1{
+        font-size: 20px;
+
+    }
+    .card span  .text4 p{
+        font-size: 10px;
+    }
+    .card  span .text4 button{
+        width: 100px;
+        height: 50px;
+        margin-top: -150px;
+        font-size: 10px;
     }
 } 
