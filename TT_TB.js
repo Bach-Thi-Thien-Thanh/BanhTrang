@@ -148,3 +148,21 @@ if (newsItems.length > 4) { // adjust the number to your liking
   latestNewsSection.style.maxHeight = '1000px'; // adjust the height to your liking
 }
 
+const imageGroup = document.querySelector('.image-group');
+const images = imageGroup.querySelectorAll('img');
+const prevButton = document.querySelector('#prev');
+const nextButton = document.querySelector('#next');
+
+let currentIndex = 0;
+
+prevButton.addEventListener('click', () => {
+    images[currentIndex].classList.add('hidden');
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    images[currentIndex].classList.remove('hidden');
+});
+
+nextButton.addEventListener('click', () => {
+    images[currentIndex].classList.add('hidden');
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.remove('hidden');
+});

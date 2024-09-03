@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="TT.css">
+    <link rel="stylesheet" href="TT_TB.css">
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -81,15 +81,24 @@
             </div>
             <div class="main">
                 <div class="content">
-                    <a><img src="Image_TTTBB/TONGKETSPITNEWBIECONTEST03.jpg"></a>
+                    <div class="image-group">
+                        <img src="Image_TTTBB/TONGKETSPITNEWBIECONTEST03.jpg" alt="" id="current-image">
+                        <!-- Add more images here -->
+                        <img src="Image_TTTBB/TONGKETSPITNEWBIECONTEST03(1).jpg" alt="" class="hidden">
+                        
+                    </div>
+                    <div class="buttons">
+                        <button id="prev"><i class="fa-solid fa-left-long"></i></button>
+                        <button id="next"><i class="fa-solid fa-right-long"></i></button>
+                    </div>
                     <h3>TỔNG KẾT SPIT NEWBIE CONTEST 03</h3>
                     <h6>04/04/2024</h6>
                     <p>
                         👋 SPIT xin chào các bạn,<br>
                         ✨ Bộ đề lần này mà SPIT mang đến cho các bạn đã tương đối thử thách hơn. Dù vậy, các bạn thí sinh đã rất cố gắng để chinh phục bộ đề mà chúng mình đưa ra. Chúng mình xin được chúc mừng Justinianus đã xuất sắc dẫn đầu contest lần này với 350 điểm! 🔥<br>
                         👉 Theo thể lệ của SPIT Newbie Contest, chúng mình chỉ xếp giải cho các bạn sinh viên K47 trường Đại học Khoa học, Đại học Huế. Vì vậy, dưới đây là danh sách giải thưởng Nhất, Nhì, Ba của SPIT Newbie Contest 03. Phần quà dành cho 3 bạn sẽ được trao vào 16:00 chiều thứ 6, ngày 5/4/2024 tại phòng E202.<br>
-                        ✅ Lời giải của contest lần này đã được tổng hợp tại: https://drive.google.com/.../18PGKUZ7LAW59QIpy1...<br>
-                        🚫 Tuy đã cảnh báo nhiều lần, chúng mình vẫn phát hiện các trưởng hợp gian lận trong contest lần này. Danh sách đã được chúng mình tổng hợp tại: https://docs.google.com/.../1iZrG9c1KdhihHfNtyx.../edit...<br>
+                        ✅ Lời giải của contest lần này đã được tổng hợp tại: <br>
+                        🚫 Tuy đã cảnh báo nhiều lần, chúng mình vẫn phát hiện các trưởng hợp gian lận trong contest lần này. Danh sách đã được chúng mình tổng hợp tại: <br>
                         ⛔️ Những thí sinh có hành vi gian lận trong contest sẽ bị cảnh cáo và không tính kết quả làm bài, và bị cấm vĩnh viễn tài khoản trong lần gian lận tiếp theo.<br>
                         ❓ Nếu có bất kỳ thắc mắc nào, các bạn hãy mạnh dạn inbox trực tiếp page để được giải quyết trong thời gian sớm nhất nhé! <br>
                         🤗 SPIT xin chân thành cảm ơn các bạn đã dành thời gian quan tâm đến SPIT Newbie Contest 03, đây luôn luôn là nguồn động lực to lớn của chúng mình! Hẹn gặp lại các bạn trong các contest tiếp theo nhé!<br>
@@ -178,7 +187,27 @@
     
         createSnowflakes();
     </script>
-
+    <div id="backtop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.js" integrity="sha256-KsEqOvBiREcvw9DYxIjwLnlxLkidTaIS+hUS9UxuXQg=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('#backtop').fadeIn();
+                } else {
+                    $('#backtop').fadeOut();
+                }
+            });
+            $('#backtop').click(function() {
+                $('html, body').animate({
+                    scrollTop : 0
+                }, 500);
+            });
+        });
+    </script>
 </body>
 
 </html>

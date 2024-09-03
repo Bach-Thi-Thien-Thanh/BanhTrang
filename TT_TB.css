@@ -2,7 +2,75 @@
     margin: 0;
     padding: 0;
     /* font-family: 'Roboto','Arial','Helvetica','OpenSans'; */
-    font-family: 'Montserrat';
+    font-family: 'Muli';
+}
+#wrapper {
+  width: 100%;
+  margin: auto;
+}
+#backtop {
+  width: 50px;
+  height: 50px;
+  background: tomato;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 2;
+}
+.buttons {
+  margin-top: -40px;
+  margin-bottom: 20px;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.buttons button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  transform: 0.5s;
+}
+
+.buttons button:hover {
+  background-color: #bac383;
+}
+#prev-button {
+  margin-right: -20px;
+}
+.image-group {
+  display: flex;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+
+.image-group button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  padding: 2px;
+
+}
+
+.image-group button:hover {
+  background-color: #ccc;
+}
+
+.image-group img {
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .TQ{
   width: 100%;
@@ -225,6 +293,8 @@ nav .fa-bars{
   background-repeat: no-repeat;
   animation: snowfall 15s infinite;
   z-index: 1;
+  left: 0;
+  right: 10%
 }
 
 @keyframes snowfall {
@@ -232,7 +302,7 @@ nav .fa-bars{
     transform: translateY(0);
   }
   100% {
-    transform: translateY(300px);
+    transform: translateY(200px);
   }
 }
 .gachchan{
@@ -252,11 +322,6 @@ nav .fa-bars{
     display: inline-block;
 }
 
-  .TinTuc h3 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
 .first {
     display: flex;
     justify-content: space-between;
@@ -274,14 +339,15 @@ nav .fa-bars{
  .title h6{
     font-weight:lighter;
     font: 1em;
-    color: rgba(40,40,40,0.62);
+    color: #003056;
 }
 .title h1{
     margin-bottom: 25px;
     font-weight: 900;
     font: 2em;
+    color: #003056;
 }
-.TinTuc .content h3 {
+.TinTuc .content h4 {
     font-weight:bolder;
     font: 2em;
     margin-left: 20px;
@@ -715,12 +781,20 @@ button a {
   background-color: #23527c;
 }
  @media(max-width: 700px){
+  #backtop {
+    right: 220px;
+  }
     .header{
-        min-height: 35vh;
-    }
+        min-height: 28vh;
+    }        
+  
     .text-box{
-        font-size: 22px;
-    }
+      font-size: 22px;
+      top: 50%;
+      left: 40%;
+      transform: translate(-30%,-30%);
+      text-align: center;
+  }
     .nav-links ul li{
         display: block;
     }
@@ -809,22 +883,31 @@ button a {
     .TinTuc .search {
         width: 100%;
     }
+    .title h6{
+      font: 1em;
+    }
     .title h1{
-        margin-bottom: 25px;
         font-weight: 900;
-        font: 2em sans-serif;
+        font: 3em;
     }
-    .TinTuc .content h3 {
-        font: 1.5em sans-serif;
+    .TinTuc .content h4 {
+        font-weight: 600;
     }
-    .TinTuc .content button {
-        padding: 5px 10px;
-        font: 10px;
+    .TinTuc .content h6 {
+        font: 0.3em;
     }
-    .TinTuc .extra{
-        margin-top: 20px;
-        width: 100%;
+    .TinTuc .content p {
+        font: 0.5em ;
+        margin-left: 20px;
     }
+      .TinTuc .content button {
+          padding: 5px 10px;
+          font: 10px;
+      }
+      .TinTuc .extra{
+          margin-top: 20px;
+          width: 100%;
+      }
     .select p {
       font-size: 15px;
       font-weight: bold;
@@ -867,11 +950,11 @@ button a {
       
     }
     button a {
-      font-size: 8px;
+      font-size: 10px;
   }
   .ThongBaoList .pagination button {
     padding: 8px 15px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .tt-inf h6 {
     font-size: 12px;
@@ -879,5 +962,7 @@ button a {
   .tt-inf p {
     font-size: 10px;
   }
+  
+  
 }
   
