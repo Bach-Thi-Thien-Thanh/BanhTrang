@@ -1199,6 +1199,7 @@ nav .fa-bars{
 @media(max-width:700px){
     .bocuc{
         max-width: 700px;
+       
     }
     #backtop {
         right: 220px;
@@ -1211,6 +1212,7 @@ nav .fa-bars{
         margin-right: auto;
         width: 100%;
     }
+    
     .flex{
         display: block;
     }
@@ -1293,21 +1295,24 @@ nav .fa-bars{
     .header1{
         display: block;
     }
+    .header1 .h2{
+        max-width: 500px;
+    }
     .scroll{
-         max-width:  520px;
+         max-width:  495px;
     }
     .scroll1{
-        max-width:  520px;
+        max-width:  495px;
     }
     .text-box h2{
         font-size: 30px;
     }
     .menu{
-        width: 700px;
+        max-width:500px;
         height: 1500px;
     }
     .menu .main-menu{
-        width: 700px;
+        width: 500px;
         display: block;
     }
     .content{
@@ -1316,7 +1321,7 @@ nav .fa-bars{
         margin-left: -30px;
     }
     .menu .main-menu{
-        width: 700px;
+        /* width: 700px; */
         display: block;
     }
     .content{
@@ -1325,14 +1330,14 @@ nav .fa-bars{
         margin-left: -30px;
     }
     .menu .main-menu .menuGT{
-        width: 50%;
+        width: 70%;
         margin-left: 75px;
         border-radius: 20px;
         height: 450px;
         margin-bottom: 25px;
     }
     .menu .main-menu  .menuHD{
-        width: 50%;
+        width: 70%;
         margin-left: 75px;
         border-radius: 20px;
         height: 450px;
@@ -1340,7 +1345,7 @@ nav .fa-bars{
     
     }
     .menu .main-menu .menuMD{
-        width: 50%;
+        width: 70%;
         margin-left: 75px;
         border-radius: 20px;
         height: 450px;
