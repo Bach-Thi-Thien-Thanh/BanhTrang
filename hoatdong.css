@@ -37,7 +37,9 @@ nav {
     align-items: center;
     background-color: rgba(141, 164, 169, 0.6);
 }
-
+.Flex{
+    display: flex;
+}
 .nav-links {
     flex: 1;
     text-align: center;
@@ -979,7 +981,7 @@ nav .fa-bars {
         display:block;
         width: 100%;
     }
-    .flex{
+    .Flex{
         float: left;
         margin-bottom: 10px;
         display: block;
@@ -1034,7 +1036,7 @@ nav .fa-bars {
     }
 
     .buttonSer {
-        margin-top: 320px;
+        margin-top: 350px;
         font-size: 20px;
     }
     .padding {
