@@ -75,6 +75,7 @@
 .TQ{
   width: 100%;
   background-color: rgb(234, 228, 221);
+  /* background:linear-gradient(180deg,#A5CAD2,#07b5bb,#0a1a44); */
 }
 .TQ1{
   margin-left: auto;
@@ -586,6 +587,7 @@ button a {
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 40px;
+    margin-bottom: 40px;
     margin-bottom: 40px;
     justify-content: center;
   }
