@@ -97,6 +97,7 @@ nav{
     width:100%;
 
 }
+
 .headericon ul {
     list-style: none;
     display: inline-block;
@@ -442,7 +443,7 @@ nav .fa-bars{
 .container{
     display: flex;
     flex-direction: column;
-    width: 1220px;
+    /* width: 1220px; */
     /* max-width: 780px; */
     margin: 0 auto;
     flex-direction: row;
@@ -522,7 +523,7 @@ nav .fa-bars{
 }
 .card span p{
     /* width: 400px; */
-    height: 100px;
+    /* height: 100px; */
     /* background-color: #837777; */
     font-size: 11px;
     margin-top: 4%;
@@ -560,6 +561,11 @@ nav .fa-bars{
     /* top:-10%; */
     margin-left: 65%;
     margin-top: -10%;
+   
+}
+.card  span .text4 button a{
+    text-decoration: none;
+    color: #fff;
 }
 .card span .text4  button::after{
     pointer-events: none;
@@ -832,15 +838,19 @@ nav .fa-bars{
     width: 1420px;
     /* height:850px; */
     /* background-color: #1797ff; */
+    
 }
 .QA{
     padding: 5rem 0 0 5rem;
     color: #fff;
+     margin-right: 10px;
+    
 }
 .QA h1 {
     font-size: 2.5em;
     /* margin-bottom: 1em; */
     /* gap: 1rem; */
+   width: 500px;
 }
 
 /* .QA h2 {
@@ -873,8 +883,8 @@ nav .fa-bars{
     padding: 2em;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgb(171, 168, 168);
-    width: 70%;
-    max-width: 600px;
+    /* width: 70%; */
+    /* max-width: 600px; */
     margin-top: 20px;
 
 }
@@ -1183,24 +1193,38 @@ nav .fa-bars{
       transform: translateY(300px);
     }
   }
-  @media(max-width: 700px){
+ 
+/* Moblie: width <740% */
+
+@media(max-width:700px){
+    .bocuc{
+        max-width: 700px;
+    }
     #backtop {
         right: 220px;
       }
+    .Header{
+        max-width: 700px;
+    }
+    .Header {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
     .flex{
         display: block;
     }
     .text-box{
         font-size: 22px;
     }
-    .nav-links ul li{
+     nav .nav-links ul li{
         display: block;
     }
-    .nav-links ul li a{
+     nav .nav-links ul li a{
         font-size: 15px;
         
     }
-    .nav-links{
+     .nav-links{
         position:absolute;
         background-color: rgb(157, 176, 180);
         height: 100vh;
@@ -1208,27 +1232,27 @@ nav .fa-bars{
         top: 0;
         right: -200px;
         text-align: left;
-        z-index: 2;
+        z-index: 1;
     }
-    nav .fa-regular{
+     nav .fa-regular{
         display: block;
         color: #003056;
         padding: 10px 0px 1px;
         font-size: large;
         cursor: pointer;
     }
-    nav .fa-bars{
+     nav .fa-bars{
         display: block;
     }
-    .nav-links ul{
+     nav  .nav-links ul{
         padding: 20px;
     }
-    .nav-links ul li a:hover{
+     .nav-links ul li a:hover{
         color:  #003056;
         size: 20px;
        
     }
-    .nav-links i {
+     nav .nav-links i {
         padding: 20px;
     }
     .imglogo{
@@ -1265,14 +1289,15 @@ nav .fa-bars{
     .Footer h1{
         font-size: 25px;
     }
+   
     .header1{
         display: block;
     }
     .scroll{
-        width: 40%;
+         max-width:  520px;
     }
     .scroll1{
-        width: 40%;
+        max-width:  520px;
     }
     .text-box h2{
         font-size: 30px;
@@ -1290,42 +1315,51 @@ nav .fa-bars{
         margin-top:730px;
         margin-left: -30px;
     }
+    .menu .main-menu{
+        width: 700px;
+        display: block;
+    }
+    .content{
+        display: block;
+        margin-top:730px;
+        margin-left: -30px;
+    }
     .menu .main-menu .menuGT{
-        width: 45%;
-        margin-left: 60px;
-        border-radius: 10px;
+        width: 50%;
+        margin-left: 75px;
+        border-radius: 20px;
         height: 450px;
         margin-bottom: 25px;
     }
     .menu .main-menu  .menuHD{
-        width: 45%;
-        margin-left: 60px;
-        border-radius: 10px;
+        width: 50%;
+        margin-left: 75px;
+        border-radius: 20px;
         height: 450px;
         margin-bottom: 25px;
     
     }
     .menu .main-menu .menuMD{
-        width: 45%;
-        margin-left: 60px;
-        border-radius: 10px;
+        width: 50%;
+        margin-left: 75px;
+        border-radius: 20px;
         height: 450px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
 
     }
     .menu .main-menu  .img{
-        width: 250px;
+        width: 280px;
         height: 300px;
     }
     .menu .main-menu  .MD{
-        width: 60%;
+        width: 65%;
         height: 150px;
     }
     .menu .main-menu  .MD h2{
-        font-size: 15px;
+        font-size: 20px;
     }
     .menu .main-menu  .MD p{
-        font-size: 13px;
+        font-size: 14px;
         
     }
 
@@ -1335,32 +1369,41 @@ nav .fa-bars{
     }
     .card {
         display: block;
-        width: 450px;
+        width: 420px;
         height: 400px;
+        margin-left: 20px;
        
     }
 
     .content .content1{
-        width: 500px;
+        max-width: 700px;
+    }
+    .content .container{
+        max-width: 680px;
+        margin-left: 20%;
+        display: block;
+
     }
     .content1 .cards{
-        width: 530px;
+        width: 265px;
         margin-left: 0;
     }
     .content1 .card span .imgcard img{
-        width: 200px;
+        width: 360px;
         max-height: 180px;
         margin-top: 15px;
         margin-left: -25px;
     }
     .card span{
         display: block;
+       
+
     }
     .card .text4{
-        margin-top: 60px;
+        margin-top: 105px;
         width: 310px;
         height: 150px;
-        left: 180px;
+        left: 150px;
 
         
     }
@@ -1373,8 +1416,107 @@ nav .fa-bars{
     }
     .card  span .text4 button{
         width: 100px;
-        height: 50px;
-        margin-top: -150px;
+        height: 40px;
         font-size: 10px;
+        margin-top: 10px;
     }
-} 
+    .card  span .text4 .obutton1{
+            margin-top: 35px;
+    }
+    .card  span .text4 .obutton{
+        margin-top: -20px;
+    }
+    .QAcontent{
+        display: block;
+        margin-top:450px;
+        margin-left: -30px;
+    }
+    .QAcontent .text3 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .inputQA{
+       width: 100px;
+    }
+    .inputQA .QA{
+        display: block;
+        width: 400px;
+        margin-left: 480px;
+    }
+    .inputQA .QA .container2{
+        width: 400px;
+    }
+    .inputQA .QA .container2 p{
+        /* text-align: center; */
+        margin-left: 55px;
+        width:300px
+
+    }
+    .inputQA .container2 input[type="NX"]{
+        width: 350px;
+    }
+    .products h3{
+        text-align: center;
+    }
+    .slide-wrapper{
+        width: 100px;
+    }
+    .FAQ{
+        display: block;
+        /* width: 500px; */
+        width: 380px;
+
+    }
+    .FAQ .QA {
+        font-size: 10px;
+        margin-left: -90px;
+        width: 400px;
+    }
+    .FAQ .QA .faq-container{
+        max-width: 80%;
+       
+    }
+    .contact{
+        width: 400px;
+        
+    }
+    .contact .star-container{
+        width: 300px;
+        margin-bottom: 150px;
+        
+    }
+    .contact .star-container .Fcontact{
+        width: 350px;
+        display: block;
+        height: 500px;
+        z-index: 5;
+    }
+    .contact .star-container .Fcontact img{
+        width: 365px;
+        height: 370px;
+        z-index: 5;
+    }
+    .contact .star-container .Fcontact .anh .anh6{
+        display: none;
+        width: 0;
+    }
+    .contact .star-container .Fcontact .FC1 h3{
+       margin-top: -90px;
+       font-size: 30px;
+       z-index: 5;
+    }
+    .contact .star-container .Fcontact .FC1 p{
+        font-size: 15px;
+        z-index: 5;
+    }
+    .contact .star-container .Fcontact .anh{
+        z-index: 5;
+    }
+    .star {
+        position: absolute;
+        color: #a49b9b92;
+        animation: fall linear forwards;
+        z-index: -1; 
+        
+      }
+}

@@ -90,7 +90,15 @@
                     </div>
                 </div>
             </section>
-
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                function showMenu() {
+                    navLinks.style.right = "0";
+                }
+                function hideMenu() {
+                    navLinks.style.right = "-200px";
+                }
+            </script>
 
             <script>
                 const s = document.querySelector('ul.brand'),
@@ -195,7 +203,7 @@
                         <div class="card">
                             <span>
                                 <div class="text4 glass">
-                                    <h1 style="font-size: x-large;">Chất lượng học tập được nâng cao</h1>
+                                    <h1 >Chất lượng học tập được nâng cao</h1>
                                     <p>🌟 Năm vừa qua, dưới sự hỗ trợ nhiệt tình, tận tâm của các trợ giảng
                                         trong CLB đã có mang đến hiệu quả cho các giảng viên trong việc giảng
                                         dạy và giúp đỡ giải đáp các vấn đề lập trình cho sinh viên khoa Công nghệ thông
@@ -211,18 +219,15 @@
                         <div class="card">
                             <span>
                                 <div class="text4 glass">
-                                    <h1 style="font-size: X-large;">CLB SPIT cùng với cuộc thi Olympic
-                                        <br>Tin học Sinh viên Việt Nam lần thứ 32-Procon Vietnam-ICPC Asia Hue City 2023
+                                    <h1 >CLB SPIT cùng với cuộc thi Olympic Tin học Sinh viên Việt Nam lần thứ 32-Procon Vietnam-ICPC Asia Hue City 2023
                                     </h1>
                                     <p> 🌟 Năm nay, trường Đại học Khoa học - Đại học Huế vinh dự là đơn vị đăng cai tổ
-                                        chức kỳ thi Olympic Tin học Sinh viên Việt Nam lần thứ 32, kỳ thi
-                                        Procon Việt Nam và kỳ thi Lập trình Sinh viên Quốc tế ICPC khu vực châu Á -TP
-                                        Huế 2023. CLB SPIT rất tự hào khi có 3 thành viên đã xuất sắc đạt giải ...
+                                        chức kỳ thi. CLB SPIT rất tự hào khi có 3 thành viên đã xuất sắc đạt giải ...
                                     </p>
                                     <p>
                                     </p>
-                                    <div class="obutton"> <button><a href="TT_OlympicTinHoc202.html">Xem thêm</a></button>
-                                    </div>
+                                    <button class="obutton"><a href="TT_OlympicTinHoc202.html">Xem thêm</a></button>
+                                    
                                 </div>
                                 <div class="imgcard">
                                     <a><img src="./Image-Trangchu/kithi.jpg"></a>
@@ -232,13 +237,13 @@
                         <div class="card">
                             <span>
                                 <div class="text4 glass">
-                                    <h1 style="font-size: x-large;"> Buổi Seminar "APPROACH TO PROGRAMMING" </h1>
+                                    <h1 > Buổi Seminar "APPROACH TO PROGRAMMING" </h1>
                                     <p>👉Tại buổi seminar, chúng ta đã được giới thiệu về CLB Hỗ trợ lập trình. Đồng
                                         thời, các thành viên trong
                                         CLB cũng đã có cơ hội chia sẻ với các bạn về những kiến thức lập trình cơ bản
                                         như kiểu dữ liệu, câu lệnh điều
                                         kiện if-else, câu lệnh lặp; cách format code sao cho dễ đọc, dễ debug...</p>
-                                        <button><a href="TT_RecapSApproachtoProgramming.html">Xem thêm</a></button>
+                                        <button class="obutton1"><a href="TT_RecapSApproachtoProgramming.html">Xem thêm</a></button>
                                 </div>
                                 <div class="imgcard">
                                     <a><img src="./Image-Trangchu/seminar1jpg.jpg"></a>
@@ -248,14 +253,14 @@
                         <div class="card">
                             <span>
                                 <div class="text4 glass">
-                                    <h1 style="font-size: x-large;">Sinh nhật 1 tuổi CLB Hỗ trợ Lập Trình</h1>
+                                    <h1 >Sinh nhật 1 tuổi CLB Hỗ trợ Lập Trình</h1>
                                     <p>🌟 Một năm vừa qua là một hành trình đầy ấn tượng đối với CLB. Từ những ngày đầu
                                         thành lập, sự nhiệt huyết của thế hệ Ban Chủ nhiệm đầu tiên cùng các thành viên
                                         đã biến CLB thành một
                                         ngôi nhà chung của những người đam mê lập trình, một nơi hội tụ tri thức, năng
                                         động, sáng tạo, cùng nhau phát triển và đạt được nhiều thành tựu đáng tự hào...
                                     </p>
-                                    <button class="obutton1"><a href="TT_SN1T.html">Xem thêm</a></button>
+                                    <button ><a href="TT_SN1T.html">Xem thêm</a></button>
                                 </div>
                                 <div class="imgcard">
                                     <a><img src="./Image-Trangchu/sinhnhat.jpg"></a>
@@ -540,7 +545,7 @@
             <div class="star-container">
                 <div class="Fcontact" id="star-container">
                     <div class="anh">
-                        <a href="#"><img src="./Image-Trangchu/anhnen4.png"></a>
+                        <a href="#"><img src="./Image-Trangchu/anhnen4.png" class="anh6"></a>
                     </div>
                     <div class="FC1">
                         <h3>Follow Us on Facebook</h3>
