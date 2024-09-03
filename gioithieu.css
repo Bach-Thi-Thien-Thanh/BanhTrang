@@ -250,6 +250,18 @@ nav .fa-bars{
     margin-right: auto;
     margin-top: 20px;
 }
+.title h6{
+    font-weight:lighter;
+    font: 3em;
+    color: rgba(#003056, #003056, #003056, 0.5);
+    padding-left: 20px;
+}
+.title h1{
+    margin-bottom: 10px;
+    font-weight: 900;
+    font: 2em;
+    color: #003056;
+}
 .GioiThieu{
     padding-top: 20px;
     display: flex;
@@ -321,8 +333,6 @@ nav .fa-bars{
     padding: 20px;
     color: #003056;
     position: absolute;
-    
-
 }
 .CheckThanh{
     margin-left: 150px;
@@ -397,7 +407,6 @@ nav .fa-bars{
 }
 .ThanhVien h1{
     font-size: 40px;
-    padding-left: 50px;
     padding-bottom: 20px;
 }
 
@@ -562,6 +571,7 @@ nav .fa-bars{
     .flex{
         float: left;
         margin-bottom: 10px;
+        display: block;
     }
     #animation{
         width: 100%;
@@ -643,19 +653,37 @@ nav .fa-bars{
         left: 400px;
     }
     .BCN .Flex .Borders{
-        height: 100px;
-        width: 250px;
-        position: relative;
-        margin: 60px;
-       justify-content: center;
-       margin-left: -150px;
+        border-radius: 10px;
+        min-height: 150px;
+        padding: 10px;
+    }
+    .title div .hr{
+        margin-bottom: 120px;
     }
     .CheckThanh{
         margin-left: -20px;
+        margin-bottom: 100px;
+    }
+    .CheckToan1{
+        margin-top: 40px;
+    }
+    .BCN .Flex .Borders h2{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .BCN .Flex .Borders p{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .BCN .Flex .Borders li{
+        font-size: 12px;
     }
     .BCN .Flex div p{
         font-size: 10px;
         padding: 5px;
+    }
+    .ThanhVien{
+        margin-top: -100px;
     }
     .ThanhVien img{
         width: 50px;
@@ -756,16 +784,32 @@ nav .fa-bars{
     .Images:hover .image{
         left: 400px;
     }
-    .BCN .Flex .Borders{
-        height: 100px;
-        width: 250px;
-        position: relative;
-        margin: 60px;
-       justify-content: center;
-       margin-left: -150px;
+    .BCN .Flex .Borders{ 
+        height: 400px;
+        width: 400px;
+        /* position: relative; */
+        /* margin: 60px; */
+       /* justify-content: center; */
+       /* margin-left: -150px; */
+       padding: 10px;
     }
     .CheckThanh{
         margin-left: -20px;
+        margin-top: 40px;
+    }
+    .CheckToan1{
+        margin-top: 40px;
+    }
+    .BCN .Flex .Borders h2{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .BCN .Flex .Borders p{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .BCN .Flex .Borders li{
+        font-size: 12px;
     }
     .BCN .Flex div p{
         font-size: 10px;
@@ -952,16 +996,32 @@ nav .fa-bars{
     .Images:hover .image{
         left: 400px;
     }
-    .BCN .Flex .Borders{
-        height: 100px;
-        width: 250px;
-        position: relative;
-        margin: 60px;
-       justify-content: center;
-       margin-left: -150px;
+     .BCN .Flex .Borders{ 
+        height: 400px;
+        width: 400px;
+        /* position: relative; */
+        /* margin: 60px; */
+       /* justify-content: center; */
+       /* margin-left: -150px; */
+       padding: 10px;
     }
     .CheckThanh{
         margin-left: -20px;
+        margin-top: 40px;
+    }
+    .CheckToan1{
+        margin-top: 40px;
+    }
+    .BCN .Flex .Borders h2{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .BCN .Flex .Borders p{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .BCN .Flex .Borders li{
+        font-size: 12px;
     }
     .BCN .Flex div p{
         font-size: 10px;
