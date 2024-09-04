@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Muli';
 }
 #backtop {
     width: 50px;
@@ -526,18 +527,28 @@ nav .fa-bars{
     /* height: 100px; */
     /* background-color: #837777; */
     font-size: 11px;
-    margin-top: 4%;
+    margin-top: 2%;
     text-align: justify;
 }
+.card .text4 .bottom{
+    margin-bottom: 60px;
+}
 .obutton{
-    margin-top: -32%;
+    margin-top: -40%;
    
 }
 .obutton1{
     /* position: absolute; */
-    margin-top: 10%;
-  transform: translate(-1%, -1%);
-
+    margin-top: 300px;
+}
+.bottom3{
+    margin-bottom: 30px;
+}
+.bottom2{
+    margin-bottom: 30px;
+}
+.bottom1{
+    margin-bottom: -20px;
 }
 .card  span .text4 button{
     --glow-color:#b0ccff;
@@ -560,8 +571,11 @@ nav .fa-bars{
     transition: all 0.3s;
     /* top:-10%; */
     margin-left: 65%;
-    margin-top: -10%;
+    margin-top: 9%;
    
+}
+.card span .text4 h1{
+    margin-top: -30px;
 }
 .card  span .text4 button a{
     text-decoration: none;
@@ -1194,6 +1208,355 @@ nav .fa-bars{
       transform: translateY(300px);
     }
   }
+  @media(max-width:1199px){
+    #backtop {
+        right: 220px;
+      }
+    .Header {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 1000px;
+    }
+    .text-box  h2{
+      font-size: 3rem;
+    }
+     nav .nav-links ul li{
+        display: block;
+    }
+     nav .nav-links ul li a{
+        font-size: 15px;
+        
+    }
+     .nav-links{
+        position:absolute;
+        background-color: rgb(157, 176, 180);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 1;
+    }
+     nav .fa-regular{
+        display: block;
+        color: #003056;
+        padding: 10px 0px 1px;
+        font-size: large;
+        cursor: pointer;
+    }
+     nav .fa-bars{
+        display: block;
+    }
+     nav  .nav-links ul{
+        padding: 20px;
+    }
+     .nav-links ul li a:hover{
+        color:  #003056;
+        size: 20px;
+       
+    }
+     nav .nav-links i {
+        padding: 20px;
+    }
+    .imglogo{
+        border-radius: 50%;
+        width:100px ; height: auto;
+    }
+    .Footer div ul{
+        display: block;
+        margin-left: 50px;
+         margin-right: 50px;
+    }
+    .Info{
+        display: block;
+        width: 100%;
+    }
+    .flex{
+        float: left;
+        margin-bottom: 10px;
+    }
+    #animation{
+        width: 100%;
+    }
+    #animation img{
+        width: 110%;
+        animation: nudge 5s linear infinite alternate;
+        animation-direction: alternate;
+        margin-left: 20px;
+        margin-top: -20px;
+        
+    }
+    .Footer h4{
+        font-size: 20px;
+    }
+    .Footer h1{
+        font-size: 25px;
+    }
+   
+    .header1{
+        display: block;
+        width: 100%;
+    }
+    .header1 .h2{
+        width: 100%;
+    }
+    .scroll{
+         max-width:  100%;
+    }
+    .scroll1{
+        max-width:  100%;
+    }
+    .menu .main-menu{
+        /* display: block; */
+        width: 100%;
+    }
+    .menu .main-menu  .img{
+        /* width: 100%; */
+        /* height: 300px; */
+        width: 80%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .menu .main-menu .menuGT{
+        width: 90%;
+        border-radius: 20px;
+        height: 460px;
+        margin-bottom: 25px; 
+        margin-left: 20px;
+
+    }
+    .menu .main-menu  .menuHD{
+        width: 90%;
+        border-radius: 20px;
+        height: 460px;
+        margin-bottom: 25px; 
+      
+    
+    }
+    .menu .main-menu .menuMD{
+        width: 90%;
+        border-radius: 20px;
+        height: 460px;
+        margin-bottom: 25px; 
+
+
+    }
+    .menu .main-menu  .MD{
+        width: 65%;
+        height: 120px;
+    }
+    .menu .main-menu  .MD h2{
+        font-size: 20px;
+    }
+    .menu .main-menu  .MD p{
+        font-size: 10px;
+        margin-top: -20px;
+    }
+
+    .menu .main-menu  .MD h4{
+        margin-top: -30px;
+    }
+    .content{
+            display: block;
+            /* margin-left: -30px; */
+            /* width: 100%; */
+        }
+    .content .title-content1{
+       text-align: center;
+       width: 100%;
+       font-size: 20px;
+    }
+
+   *
+
+    .content .title-content1 h1 {
+        font-size: 40px;
+    }
+    /* .card {
+        display: block;
+        width: 420px;
+        height: 400px;
+        margin-left: 20px;
+       
+    } */
+     .content{
+        width: 100%;
+        display: block;
+     }
+
+    .content .container{
+        max-width: 680px;
+        margin-left: 5%;
+        display: block;
+
+    }
+    .content1  .container .cards .card{
+        width: 800px;
+
+    }
+     .content1 .cards{
+        width: 100%;
+        /* margin-left: -60px; */
+        display: block;
+    }
+    .content1 .card span .imgcard img{ 
+        /* width: 80%; */
+        max-height: 180px;
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+    .card span{
+        display: block;
+        height: 380px;
+        width: 800px;
+       
+
+    }
+    .card .text4{
+        margin-top: 105px;
+        width:70%;
+        height: 100px;
+        left: 250px;
+
+        
+    }
+    .card span  .text4 h1{
+        font-size: 26px;
+        margin-top: -30px;
+
+    }
+    .card span  .text4 p{
+        font-size: 13px;
+        margin-top: -1px;
+    }
+    .card  span .text4 button{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .card  span .text4 .obutton1{
+            margin-top: 55px;
+    }
+    .card  span .text4 .bt{
+        margin-top: -2px;
+}
+.card  span .text4 .bt2{
+    margin-top: 40px;
+}
+.QAcontent{
+        display: block;
+        /* margin-top:450px; */
+        /* margin-left: -30px; */
+    }
+    .QAcontent .text3 h6{
+        font-size: 15px;
+    }
+    .QAcontent .text3 h1{
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+    .inputQA{
+       width: 100%;
+    }
+    .inputQA .QA{
+        display: block;
+
+        width: 100%;
+
+        margin-left: 10px;
+
+    }
+    .inputQA .QA .container2{
+        width: 100%;
+    }
+    .inputQA .QA .container2 p{
+        /* text-align: center; */
+        /* margin-left: 55px; */
+        width:100%;
+
+    }
+    .inputQA .container2 input[type="NX"]{
+        width: 80%;
+    }
+    .products h3{
+        text-align: center;
+    }
+    .FAQ{
+        display: block;
+        /* width: 500px; */
+        width: 80%;
+
+    }
+    .FAQ .QA {
+        font-size: 20px;
+
+        margin-left: -60px;
+
+        width: 90%;
+        height: 450px;
+    }
+    .QA p{
+        font-size: 20px;
+    }
+    .FAQ .QA .faq-container{
+        font-size: 20px;
+       
+    }
+    .FAQ .QA .faq-container .faq-item .faq-question{
+        padding: 0.5rem;
+    }
+    .contact .star-container .Fcontact{
+        width: 95%;
+        z-index: 5;
+        margin-left: 20px;
+    }
+    .contact .star-container .Fcontact img{
+        width:100%;
+        height: 300px;
+        z-index: 5;
+
+    }
+    /* .contact{
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+    .contact .star-container{
+        width: 350px;
+        margin-bottom: 150px;
+        
+    }
+   
+   
+    .contact .star-container .Fcontact .anh .anh6{
+        display: none;
+        width: 0;
+    }
+    .contact .star-container .Fcontact .FC1 h3{
+       margin-top: -90px;
+       font-size: 30px;
+       z-index: 5;
+    }
+    .contact .star-container .Fcontact .FC1 p{
+        font-size: 15px;
+        z-index: 5;
+    }
+    .contact .star-container .Fcontact .anh{
+        z-index: 5;
+    }
+    .star {
+        position: absolute;
+        color: #a49b9b92;
+        animation: fall linear forwards;
+        z-index: -1; 
+        
+      } */
+}
+
  
 /* Moblie: width <740% */
 
