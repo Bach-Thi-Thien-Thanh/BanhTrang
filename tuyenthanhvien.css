@@ -687,28 +687,33 @@ nav .fa-bars{
         margin-left: -100px;
     }
     .Header .H3 .TV2 .noidung .td{
-            font-size: 10px;
+            font-size: 17px;
     }
     .Header .H4{
         margin-top: -130px;
+        margin-bottom: 300px;
     }
     .Header .H4 .TV3{
         /* margin-top: 140px; */
         width: 100%;
+        
     }
     .Header .H4 .TV3 h1{
             font-size: 20px;
             margin-top: 150px;
             width: 85%;
             margin-left: 25px;
+            padding-top: 10px;
+           
     }
     .Header .H4 .TV3 button{    
         margin-left: 30%;
         height: 40px;
         font-size: 15px;
+
     }
     .Footer {
-        margin-top: 80px;
+        margin-top: 100px;
     }
     .Footer div ul{
         display: block;
