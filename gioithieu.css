@@ -735,7 +735,7 @@ nav .fa-bars{
     }
     .product-pre .pre{
         margin-right:auto;
-        width: 10rem;
+        width: 20rem;
         border-radius: 30px;
         top: 20%;
         left: 5%;
@@ -773,6 +773,9 @@ nav .fa-bars{
     }
     .text-box{
         font-size: 22px;
+    }
+    .text-box p{
+        font-size: 25px;
     }
     .nav-links ul li{
         display: block;
@@ -944,7 +947,7 @@ nav .fa-bars{
         margin-left: -200px;
     }
     .CheckToan1{
-        margin-top: 150px;
+        margin-top: 200px;
         margin-bottom: 150px;
         margin-left: -50px;
     }
@@ -990,7 +993,7 @@ nav .fa-bars{
     }
     .product-pre .pre{
         margin-right:auto;
-        width: 10rem;
+        width: 20rem;
         border-radius: 30px;
         top: 20%;
         left: 5%;
