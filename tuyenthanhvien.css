@@ -215,15 +215,14 @@ nav .fa-bars{
 
 .H2{
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
-
     /* background-color: #008979; */
 }
 .astronaut img{
     /* position: absolute; */
     width: 850px;
-    height: 650px;
+    height: 700px;
     opacity: 0.7;
     position: relative;
     z-index: 4;
@@ -384,13 +383,14 @@ nav .fa-bars{
     height: 400px;
 }
 .Header .H3 .TV2{
-    width: 1300px;
+    /* width: 1300px; */
     margin: 0px auto;
     /* background-color: #496bc0; */
     height: 400px;
 }
 .tieude{
     margin-left: 5%;
+    margin-top: 2%;
 }
 .tieude button{
     width: 70px;
@@ -461,7 +461,7 @@ nav .fa-bars{
     transition: background-color 0.3s ease;
     box-shadow: 0 0 1rem #12f7ff;
     font-weight: 700;
-    width: 190px;
+    /* width: 190px; */
     height: 55px;
     margin-left: 40%;
     margin-top: 3%;
@@ -611,4 +611,138 @@ nav .fa-bars{
       transform: translateY(300px);
     }
   }
-
+  @media(max-width:700px){
+    #backtop {
+        right: 50px;
+      }
+    /* .Header{
+        width: 100%;
+     } */
+    .snowflake{
+        width: 50%;
+    }
+     .TQ{
+        max-width: 700px;
+    .Header .H1 nav{
+        width: 100%;
+    }
+    .Header .H1 nav .home{
+        width: 10%;
+    }
+    .Header .H1 nav .apply{
+            width: 10%;
+    }
+    .TV1 {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    .Header .H2 .TV1{
+        display: block;
+        width: 100%;
+    }
+    .Header .H2 .TV1 .box {
+        width: 75%;
+    }
+    .Header .H2 .TV1 .box .square{
+        width: 50px;
+        height: 50px;
+    }
+    .Header .H2 .TV1 .box .container{
+        width: 330px;
+    }
+    .Header .H2 .TV1 .box .container .form{
+        width: 90%;
+    }
+    .Header .H2 .TV1 .box .container .form h2{
+        font-size: 20px;
+    }
+      .Header .H2 .TV1 .box .container .form  .inputBox input{
+        padding: 5px 5px;
+    }
+    .astronaut img{
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+    }
+    
+    .Header .H3{
+        width: 100%;
+    }
+    .Header .H3 .TV2{
+        width: 30%;
+        margin-top: 150px;
+    }
+    .Header .H3 .TV2 .tieude{
+        margin-left: -100px;
+        width: 350px;
+    }
+    .Header .H3 .TV2 .tieude p{
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Header .H3 .TV2 .noidung{
+        width: 300px;
+        margin-left: -100px;
+    }
+    .Header .H3 .TV2 .noidung .td{
+            font-size: 10px;
+    }
+    .Header .H4{
+        margin-top: 100px;
+    }
+    .Header .H4 .TV3{
+        margin-top: 140px;
+        width: 100%;
+    }
+    .Header .H4 .TV3 h1{
+            font-size: 18px;
+            margin-top: 150px;
+            width: 85%;
+            margin-left: 20px;
+    }
+    .Header .H4 .TV3 button{    
+        margin-left: 25%;
+        width: 35%;
+        height: 40px;
+        font-size: 15px;
+    }
+    .Footer {
+        margin-top: 50px;
+    }
+    .Footer div ul{
+        display: block;
+        margin-left: 50px;
+         margin-right: 50px;
+    }
+    .Info{
+        display: block;
+        width: 100%;
+    }
+    .flex{
+        float: left;
+        margin-bottom: 10px;
+    }
+    .flex{
+        display: block;
+    }
+    #animation{
+        width: 100%;
+    }
+    #animation img{
+        width: 110%;
+        animation: nudge 5s linear infinite alternate;
+        animation-direction: alternate;
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    .Footer h4{
+        font-size: 20px;
+    }
+    .Footer h1{
+        font-size: 25px;
+    }
+    
+}
+  }
