@@ -523,12 +523,12 @@ nav .fa-bars{
 
 /* IPad */
 @media(max-width: 1199px){
-    .TQ1{
+    /* .TQ1{
         max-width: 700px;
-    }
-    #backtop {
+    } */
+    /* #backtop {
         right: 220px;
-      }
+      } */
     .TQ1 {
         margin-left: auto;
         margin-right: auto;
@@ -782,7 +782,7 @@ nav .fa-bars{
         max-width: 700px;
     }
     #backtop {
-        right: 220px;
+        right: 620px;
       }
     .TQ1 {
         margin-left: auto;
