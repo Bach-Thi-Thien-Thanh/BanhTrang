@@ -798,6 +798,10 @@ button a {
 
 }
 @media(max-width: 1199px) {
+  #backtop {
+    right: 220px;
+  }
+
   .text-box{
     font-size: 50px;
   }
