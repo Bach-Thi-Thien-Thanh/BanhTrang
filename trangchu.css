@@ -1634,7 +1634,7 @@ nav .fa-bars{
         max-width:  100%;
     }
     .text-box h2{
-        font-size: 30px;
+        font-size: 25px;
     }
     .menu .main-menu{
         display: block;
@@ -1777,6 +1777,10 @@ nav .fa-bars{
         margin-bottom: -10px;
         margin-top: -5px;
     }
+    .product-card .pr-card img{
+        align-items: center;
+        margin-left: -30px;
+    }
     .QAcontent{
         display: block;
         /* margin-top:450px; */
@@ -1824,18 +1828,21 @@ nav .fa-bars{
     }
     .FAQ .QA {
         font-size: 10px;
-
         margin-left: -60px;
+        height: 300px;
 
-        width: 90%;
+    }
+    .FAQ .QA p{
+        font-size: 10px;
     }
     .FAQ .QA .faq-container{
         font-size: 10px;
-       
+      
     }
     .FAQ .QA .faq-container .faq-item .faq-question{
         padding: 0.5rem;
     }
+
     .contact{
         width: 100%;
         margin-bottom: 20px;
@@ -1843,7 +1850,6 @@ nav .fa-bars{
         
     }
     .contact .star-container{
-        width: 350px;
         margin-bottom: 150px;
         margin-right: 40px;
         
