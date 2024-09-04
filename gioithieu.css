@@ -520,7 +520,264 @@ nav .fa-bars{
     animation-range: entry 0% cover 40%;
 }
 
- @media(max-width: 700px){
+
+/* IPad */
+@media(max-width: 1199px){
+    .TQ1{
+        max-width: 700px;
+    }
+    #backtop {
+        right: 220px;
+      }
+    .TQ1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .flex{
+        display: block;
+    }
+    .text-box{
+        font-size: 22px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links ul li a{
+        font-size: 15px;
+        
+    }
+    .nav-links{
+        position:absolute;
+        background-color: rgb(157, 176, 180);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fa-regular{
+        display: block;
+        color: #003056;
+        padding: 10px 0px 1px;
+        font-size: large;
+        cursor: pointer;
+    }
+    nav .fa-bars{
+        display: block;
+    }
+    .nav-links ul{
+        padding: 20px;
+    }
+    .nav-links ul li a:hover{
+        color:  #003056;
+        size: 20px;
+       
+    }
+    .nav-links i {
+        padding: 20px;
+    }
+    .imglogo{
+        border-radius: 50%;
+        width:50px ; height: auto;
+    }
+    .Footer div ul{
+        display: block;
+        margin-left: 50px;
+         margin-right: 50px;
+    }
+    .Info{
+        display: block;
+        width: 100%;
+    }
+    .flex{
+        float: left;
+        margin-bottom: 10px;
+        display: block;
+    }
+    #animation{
+        width: 100%;
+    }
+    #animation img{
+        width: 110%;
+        animation: nudge 5s linear infinite alternate;
+        animation-direction: alternate;
+        margin-left: 20px;
+        margin-top: -20px;
+        
+    }
+    .Footer h4{
+        font-size: 20px;
+    }
+    .Footer h1{
+        font-size: 25px;
+    }
+    .GioiThieu{
+        display: block;
+        padding-bottom: 20px;
+    }
+    .GioiThieu div img{
+        width: 550px;
+    }
+    .GioiThieu div{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .GioiThieu div h1{
+        font-size: 30px;
+    }
+    .GioiThieu div p{
+        font-size: 25px;
+    }
+    .GioiThieu div h3{
+        border: 10px solid #fff;
+        background-color: #fff;
+        text-align: center;
+        font-size: 15px;
+    }
+    .BCN{
+        margin-bottom: 100px;
+    }
+    .BCN h1{
+        font-size: 25px;
+    }
+    .BCN .Flex{
+        display: block;
+        padding: 100px;
+    }
+    .BCN .Flex div{
+        height: 50px;
+        width: 20px;
+        padding: 10px;
+    }
+    .BCN .Flex div p{
+        font-size: 4px;
+        padding: 0px;
+    }
+    .BCN .Flex div h2{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .BCN .Flex .Images{
+        position: relative;
+        bottom: 10rem;
+        right: 200px;
+        top: -10rem;
+    }
+    .Images .shape{
+        height: 330px;
+    }
+    .Images .image{
+        height: 250px;
+        transform: translateX(-150%);
+        margin-top: -320px;
+        margin-left: 200px;
+    }
+    
+    .Images:hover .image{
+        left: 400px;
+    }
+    .BCN .Flex .Borders{
+        border-radius: 10px;
+        /* min-height: 150px; */
+        padding: 10px;
+        margin-top: -100px;
+        height: 150px;
+        width: 300px;
+    }
+    .GioiThieu .title h6{
+        font-size: 18px;
+    }
+    .GioiThieu .title h1{
+        font-size: 40px;
+    }
+    .title div .hr{
+        margin-bottom: 120px;
+    }
+    .title div h6{
+        font-size: 18px;
+    }
+    .title div h1{
+        font-size: 40px;
+    }
+    .CheckThanh{
+        margin-left: -50px;
+        margin-bottom: 200px;
+        margin-top: 20px;
+    }
+    .CheckThanh1{
+        margin-left: -200px;
+    }
+    .CheckToan1{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: -50px;
+    }
+    .CheckToan{
+        margin-left: -200px;
+    }
+    .MarginBottom {
+        margin-top: 150px;
+    }
+    .BCN .Flex .Borders h2{
+        font-size: 15px;
+        padding: 4px;
+    }
+    .BCN .Flex .Borders p{
+        font-size: 12px;
+        padding: 2px;
+    }
+    .BCN .Flex .Borders li{
+        font-size: 12px;
+    }
+    .BCN .Flex div p{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .ThanhVien{
+        margin-top: -100px;
+    }
+    .ThanhVien img{
+        width: 50px;
+    }
+    .ThanhVien h1{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .ThanhVien .Product_ThanhVien .product{
+        box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
+        width: 100px;
+    }
+    .ThanhVien .Product_ThanhVien{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+        gap: 0.5rem;
+    }
+    .product-pre .pre{
+        margin-right:auto;
+        width: 10rem;
+        border-radius: 30px;
+        top: 20%;
+        left: 5%;
+    }
+    .product-pre .pre .fa-solid{
+        position: absolute;
+        top: 0.8rem;
+        right:0.8rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+    .product-pre{
+       min-height: 100%;
+    }
+    .Khoa{
+        font-size: 20px;
+    }
+} 
+
+/* Iphone */
+@media(max-width: 700px){
     .TQ1{
         max-width: 700px;
     }
@@ -634,6 +891,9 @@ nav .fa-bars{
         text-align: center;
         font-size: 15px;
     }
+    .BCN{
+        margin-bottom: 100px;
+    }
     .BCN h1{
         font-size: 25px;
     }
@@ -675,18 +935,45 @@ nav .fa-bars{
     }
     .BCN .Flex .Borders{
         border-radius: 10px;
-        min-height: 150px;
+        /* min-height: 150px; */
         padding: 10px;
+        margin-top: -100px;
+        height: 150px;
+        width: 300px;
+    }
+    .GioiThieu .title h1{
+        font-size: 20px;
+    }
+    .GioiThieu .title h6{
+        font-size: 10px;
+    }
+    .title div h6{
+        font-size: 10px;
     }
     .title div .hr{
         margin-bottom: 120px;
     }
+    .title div h1{
+        font-size: 20px;
+    }
     .CheckThanh{
-        margin-left: -20px;
-        margin-bottom: 100px;
+        margin-left: -50px;
+        margin-bottom: 200px;
+        margin-top: 20px;
+    }
+    .CheckThanh1{
+        margin-left: -200px;
     }
     .CheckToan1{
-        margin-top: 40px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: -50px;
+    }
+    .CheckToan{
+        margin-left: -200px;
+    }
+    .MarginBottom {
+        margin-top: 150px;
     }
     .BCN .Flex .Borders h2{
         font-size: 15px;
@@ -739,542 +1026,7 @@ nav .fa-bars{
     .product-pre{
        min-height: 100%;
     }
-} 
-
-
-@media (max-width:756px){
-    .GioiThieu{
-        display: block;
-        padding-bottom: 20px;
-    }
-    .GioiThieu div img{
-        width: 350px;
-    }
-    .GioiThieu div{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .GioiThieu div h1{
-        font-size: 30px;
-    }
-    .GioiThieu div p{
-        font-size: 15px;
-    }
-    .GioiThieu div h3{
-        border: 10px solid #fff;
-        background-color: #fff;
-        text-align: center;
-        font-size: 15px;
-    }
-    .BCN h1{
-        font-size: 25px;
-    }
-    .BCN .Flex{
-        display: block;
-        padding: 100px;
-    }
-    .BCN .Flex div{
-        height: 50px;
-        width: 20px;
-        padding: 10px;
-    }
-    .BCN .Flex div p{
-        font-size: 4px;
-        padding: 0px;
-    }
-    .BCN .Flex div h2{
-        font-size: 15px;
-        padding: 5px;
-    }
-    .BCN .Flex .Images{
-        position: relative;
-        bottom: 10rem;
-        right: 200px;
-        top: -10rem;
-    }
-    .Images .shape{
-        height: 330px;
-    }
-    .Images .image{
-        height: 250px;
-        transform: translateX(-150%);
-        margin-top: -320px;
-        margin-left: 200px;
-    }
-    
-    .Images:hover .image{
-        left: 400px;
-    }
-    .BCN .Flex .Borders{ 
-        height: 400px;
-        width: 400px;
-        /* position: relative; */
-        /* margin: 60px; */
-       /* justify-content: center; */
-       /* margin-left: -150px; */
-       padding: 10px;
-    }
-    .CheckThanh{
-        margin-left: -20px;
-        margin-top: 40px;
-    }
-    .CheckToan1{
-        margin-top: 40px;
-    }
-    .BCN .Flex .Borders h2{
-        font-size: 15px;
-        padding: 4px;
-    }
-    .BCN .Flex .Borders p{
-        font-size: 12px;
-        padding: 2px;
-    }
-    .BCN .Flex .Borders li{
-        font-size: 12px;
-    }
-    .BCN .Flex div p{
-        font-size: 10px;
-        padding: 5px;
-    }
-    .ThanhVien img{
-        width: 50px;
-    }
-    .ThanhVien h1{
-        font-size: 25px;
-        padding: 10px;
-    }
-    .ThanhVien .Product_ThanhVien .product{
-        box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
-        width: 100px;
-    }
-    .ThanhVien .Product_ThanhVien{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
-        gap: 0.5rem;
-    }
-    .product-pre .pre{
-        margin-right: 15rem;
-        width: 20rem;
-        border-radius: 30px;
-        top: 20%;
-        left: 5%;
-    }
-    .product-pre .pre .fa-solid{
-        position: absolute;
-        top: 0.8rem;
-        right:0.8rem;
-        cursor: pointer;
-        font-size: 1.5rem;
-    }
-    .product-pre{
-       min-height: 100%;
-    }
-}
-
-@media(max-width: 450px){
-    .TQ1 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-    .flex{
-        display: block;
-    }
-    .text-box{
-        font-size: 22px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links ul li a{
-        font-size: 15px;
-        
-    }
-    .nav-links{
-        position:absolute;
-        background-color: rgb(157, 176, 180);
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-    }
-    nav .fa-regular{
-        display: block;
-        color: #003056;
-        padding: 10px 0px 1px;
-        font-size: large;
-        cursor: pointer;
-    }
-    nav .fa-bars{
-        display: block;
-    }
-    .nav-links ul{
-        padding: 20px;
-    }
-    .nav-links ul li a:hover{
-        color:  #003056;
-        size: 20px;
-       
-    }
-    .nav-links i {
-        padding: 20px;
-    }
-    .imglogo{
-        border-radius: 50%;
-        width:50px ; height: auto;
-    }
-    .Footer div ul{
-        display: block;
-        margin-left: 50px;
-         margin-right: 50px;
-    }
-    .Info{
-        display: block;
-        width: 100%;
-    }
-    .flex{
-        float: left;
-        margin-bottom: 10px;
-    }
-    #animation{
-        width: 100%;
-    }
-    #animation img{
-        width: 110%;
-        animation: nudge 5s linear infinite alternate;
-        animation-direction: alternate;
-        margin-left: 20px;
-        margin-top: -20px;
-        
-    }
-    .Footer h4{
+    .Khoa{
         font-size: 20px;
-    }
-    .Footer h1{
-        font-size: 25px;
-    }
-    .GioiThieu{
-        display: block;
-        padding-bottom: 20px;
-    }
-    .GioiThieu div img{
-        width: 350px;
-    }
-    .GioiThieu div{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .GioiThieu div h1{
-        font-size: 30px;
-    }
-    .GioiThieu div p{
-        font-size: 15px;
-    }
-    .GioiThieu div h3{
-        border: 10px solid #fff;
-        background-color: #fff;
-        text-align: center;
-        font-size: 15px;
-    }
-    .BCN h1{
-        font-size: 25px;
-    }
-    .BCN .Flex{
-        display: block;
-        padding: 100px;
-    }
-    .BCN .Flex div{
-        height: 50px;
-        width: 20px;
-        padding: 10px;
-    }
-    .BCN .Flex div p{
-        font-size: 4px;
-        padding: 0px;
-    }
-    .BCN .Flex div h2{
-        font-size: 15px;
-        padding: 5px;
-    }
-    .BCN .Flex .Images{
-        position: relative;
-        bottom: 10rem;
-        right: 200px;
-        top: -10rem;
-    }
-    .Images .shape{
-        height: 330px;
-    }
-    .Images .image{
-        height: 250px;
-        transform: translateX(-150%);
-        margin-top: -320px;
-        margin-left: 200px;
-    }
-    
-    .Images:hover .image{
-        left: 400px;
-    }
-     .BCN .Flex .Borders{ 
-        height: 400px;
-        width: 400px;
-        /* position: relative; */
-        /* margin: 60px; */
-       /* justify-content: center; */
-       /* margin-left: -150px; */
-       padding: 10px;
-    }
-    .CheckThanh{
-        margin-left: -20px;
-        margin-top: 40px;
-    }
-    .CheckToan1{
-        margin-top: 40px;
-    }
-    .BCN .Flex .Borders h2{
-        font-size: 15px;
-        padding: 4px;
-    }
-    .BCN .Flex .Borders p{
-        font-size: 12px;
-        padding: 2px;
-    }
-    .BCN .Flex .Borders li{
-        font-size: 12px;
-    }
-    .BCN .Flex div p{
-        font-size: 10px;
-        padding: 5px;
-    }
-    .ThanhVien img{
-        width: 50px;
-    }
-    .ThanhVien h1{
-        font-size: 25px;
-        padding: 10px;
-    }
-    .ThanhVien .Product_ThanhVien .product{
-        box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
-        width: 100px;
-    }
-    .ThanhVien .Product_ThanhVien{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
-        gap: 0.5rem;
-    }
-    .product-pre .pre{
-        margin-right: 15rem;
-        width: 20rem;
-        border-radius: 30px;
-        top: 20%;
-        left: 5%;
-    }
-    .product-pre .pre .fa-solid{
-        position: absolute;
-        top: 0.8rem;
-        right:0.8rem;
-        cursor: pointer;
-        font-size: 1.5rem;
-    }
-    .product-pre{
-       min-height: 100%;
-    }
-} 
-
-@media(max-width: 961px){
-    .TQ1 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-    .flex{
-        display: block;
-    }
-    .text-box{
-        font-size: 22px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links ul li a{
-        font-size: 15px;
-        
-    }
-    .nav-links{
-        position:absolute;
-        background-color: rgb(157, 176, 180);
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-    }
-    nav .fa-regular{
-        display: block;
-        color: #003056;
-        padding: 10px 0px 1px;
-        font-size: large;
-        cursor: pointer;
-    }
-    nav .fa-bars{
-        display: block;
-    }
-    .nav-links ul{
-        padding: 20px;
-    }
-    .nav-links ul li a:hover{
-        color:  #003056;
-        size: 20px;
-       
-    }
-    .nav-links i {
-        padding: 20px;
-    }
-    .imglogo{
-        border-radius: 50%;
-        width:50px ; height: auto;
-    }
-    .Footer div ul{
-        display: block;
-        margin-left: 50px;
-         margin-right: 50px;
-    }
-    .Info{
-        display: block;
-        width: 100%;
-    }
-    .flex{
-        float: left;
-        margin-bottom: 10px;
-    }
-    #animation{
-        width: 100%;
-    }
-    #animation img{
-        width: 110%;
-        animation: nudge 5s linear infinite alternate;
-        animation-direction: alternate;
-        margin-left: 20px;
-        margin-top: -20px;
-        
-    }
-    .Footer h4{
-        font-size: 20px;
-    }
-    .Footer h1{
-        font-size: 25px;
-    }
-    .GioiThieu{
-        display: block;
-        padding-bottom: 20px;
-    }
-    .GioiThieu div img{
-        width: 350px;
-    }
-    .GioiThieu div{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .GioiThieu div h1{
-        font-size: 30px;
-    }
-    .GioiThieu div p{
-        font-size: 15px;
-    }
-    .GioiThieu div h3{
-        border: 10px solid #fff;
-        background-color: #fff;
-        text-align: center;
-        font-size: 15px;
-    }
-    .BCN h1{
-        font-size: 25px;
-    }
-    .BCN .Flex{
-        display: block;
-        padding: 100px;
-    }
-    .BCN .Flex div{
-        height: 50px;
-        width: 20px;
-        padding: 10px;
-    }
-    .BCN .Flex div p{
-        font-size: 4px;
-        padding: 0px;
-    }
-    .BCN .Flex div h2{
-        font-size: 15px;
-        padding: 5px;
-    }
-    .BCN .Flex .Images{
-        position: relative;
-        bottom: 10rem;
-        right: 200px;
-        top: -10rem;
-    }
-    .Images .shape{
-        height: 330px;
-    }
-    .Images .image{
-        height: 250px;
-        transform: translateX(-150%);
-        margin-top: -320px;
-        margin-left: 200px;
-    }
-    
-    .Images:hover .image{
-        left: 400px;
-    }
-    .BCN .Flex .Borders{
-        height: 100px;
-        width: 250px;
-        position: relative;
-        margin: 60px;
-       justify-content: center;
-       margin-left: -150px;
-    }
-    .CheckThanh{
-        margin-left: -20px;
-    }
-    .BCN .Flex div p{
-        font-size: 10px;
-        padding: 5px;
-    }
-    .ThanhVien img{
-        width: 50px;
-    }
-    .ThanhVien h1{
-        font-size: 25px;
-        padding: 10px;
-    }
-    .ThanhVien .Product_ThanhVien .product{
-        box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, .1);
-        width: 100px;
-    }
-    .ThanhVien .Product_ThanhVien{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
-        gap: 0.5rem;
-    }
-    .product-pre .pre{
-        margin-right: 15rem;
-        width: 20rem;
-        border-radius: 30px;
-        top: 20%;
-        left: 5%;
-    }
-    .product-pre .pre .fa-solid{
-        position: absolute;
-        top: 0.8rem;
-        right:0.8rem;
-        cursor: pointer;
-        font-size: 1.5rem;
-    }
-    .product-pre{
-       min-height: 100%;
     }
 } 

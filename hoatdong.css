@@ -927,15 +927,243 @@ nav .fa-bars {
     margin-right: auto;
     margin-top: 20px;
 }
+
+
+/* Ipad */
+@media(max-width: 1199px) {
+    /* #backtop {
+        right: 220px;
+      } */
+    /* .TQ1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%px;
+    } */
+
+    .text-box {
+        font-size: 22px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: rgb(157, 176, 180);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+
+    nav .fa-regular {
+        display: block;
+        color: #003056;
+        padding: 10px 0px 1px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    nav .fa-bars {
+        display: block;
+    }
+
+    .nav-links ul {
+        padding: 20px;
+    }
+
+    .nav-links ul li a:hover {
+        color: #003056;
+        size: 20px;
+
+    }
+
+    .nav-links i {
+        padding: 20px;
+    }
+
+    .imglogo {
+        border-radius: 50%;
+        width: 50px;
+        height: auto;
+    }
+
+    .Footer div ul{
+        display: block;
+        margin-left: 50px;
+         margin-right: 50px;
+    }
+    .Info{
+        display:block;
+        width: 100%;
+    }
+    .Flex{
+        float: left;
+        margin-bottom: 10px;
+        display: block;
+    }
+    #animation{
+        width: 100%;
+    }
+    #animation img{
+        width: 110%;
+        animation: nudge 5s linear infinite alternate;
+        animation-direction: alternate;
+        margin-left: 20px;
+        margin-top: -20px;
+        
+    }
+    .Footer h4{
+        font-size: 20px;
+    }
+    .Footer h1{
+        font-size: 25px;
+    }
+
+    .containerSer {
+        height: 240px;
+        margin-top: 45px;
+        margin-left: -10px;
+        width: 700px;
+    }
+
+    .itemSer .content {
+        height: 220px;
+        width: 250px;
+        padding: 10px;
+        left: 30px;
+    }
+
+    .content .name {
+        font-size: 18px;
+    }
+
+    .content .des {
+        font-size: 12px;
+    }
+
+    .content button {
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    .containerSer .slideSer .itemSer {
+        width: 525px;
+        height: 320px;
+    }
+
+    .buttonSer {
+        margin-top: 450px;
+        font-size: 30px;
+    }
+    .prevSer{
+        margin-left: 20px;
+    }
+    .padding {
+        margin-right: 40px;
+        margin-left: -10px;
+    }
+
+    .itemSer {
+        background-position: 50% 50%;
+        display: inline-block;
+        transition: 1s;
+        background-size: 100%;
+        z-index: 1;
+    }
+    .slideSer .itemSer:nth-child(2) {
+        left: 50%;
+        width: 450px;
+    }
+
+    .itemSer:nth-child(1) {
+        transform: translate(0%);
+        background-position: 0% 50%;
+    }
+
+    .itemSer:nth-child(2) {
+        transform: translate(5%);
+        background-position: 20% 50%;
+    }
+
+    .itemSer:nth-child(3) {
+        transform: translate(10%);
+        background-position: 50% 50%;
+    }
+
+    .itemSer:nth-child(4) {
+        transform: translate(15%);
+        background-position: 80% 50%;
+    }
+
+    .itemSer:nth-child(n+5) {
+        transform: translate(15%);
+        background-position: 100% 50%;
+        opacity: 0;
+    }
+    .card-body img{
+        width: 400px;
+        margin-left: -50px;
+    }
+    .card-body{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .textContest .nameCon{
+        font-size: 25px;
+    }
+    .textContest .desCon{
+        font-size: 15px;
+    }
+    .textContest button{
+        font-size: 15px;
+    }
+    #cards{
+        list-style: none;
+        padding-left: 0;
+        display:inline-block ;
+    }
+    .slideNgoaiKhoa{
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttonNgoaiKhoa{
+        top: 50%;
+    }
+    .buttonNgoaiKhoa button{
+        height: 50px;
+        width: 50px;
+    }
+    .dots{
+        top:90%;
+    }
+    .dots li{
+        height: 10px;
+        width: 10px;
+    }
+}
+
+
+
+/* Iphone */
 @media(max-width: 700px) {
     #backtop {
         right: 220px;
       }
-    .TQ1 {
+    /* .TQ1 {
         margin-left: auto;
         margin-right: auto;
-        width: 427px;
-    }
+        width: 100%;
+    } */
 
     .text-box {
         font-size: 22px;
@@ -1106,11 +1334,15 @@ nav .fa-bars {
         display: inline-block;
         margin-left: 0px;
     }
+    .textContest{
+        margin-left: -30px;
+        width: 280px;
+    }
     .textContest .nameCon{
         font-size: 25px;
     }
     .textContest .desCon{
-        font-size: 15px;
+        font-size: 13px;
     }
     .textContest button{
         font-size: 15px;
@@ -1120,22 +1352,44 @@ nav .fa-bars {
         padding-left: 0;
         display:inline-block ;
     }
+    .NgoaiKhoa h1{
+        font-size: 25px;
+    }
+    .HdKhac h1, .Contest h1, .Seminar h1, .TroGiang h1{
+        font-size: 25px;
+    }
     .slideNgoaiKhoa{
-        height: 400px;
-        margin-left: auto;
-        margin-right: auto;
+        height: 300px;
+        width: 100px;
+        padding-left: -100px;
+    }
+    .itemNgoaiKhoa img{
+        width: 90%;
+        margin-left: -20px;
     }
     .buttonNgoaiKhoa{
-        top: 20%;
+        top: 12%;
+        left: -1%;
+    }
+    .buttonNgoaiKhoa button{
+        width: 40px;
+        height: 40px;
     }
     .dots{
-        top:30%;
+        top:25%;
+        left: -5%;
     }
     .dots li{
-        height: 8px;
-        width: 8px;
+        height: 5px;
+        width: 5px;
+    }
+    .dots li.activedots{
+        width: 15px;
     }
     .HdKhac{
         margin-top: -400px;
+    }
+    #backtop{
+        right: 1250px;
     }
 }
