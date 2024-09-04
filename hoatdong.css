@@ -931,9 +931,9 @@ nav .fa-bars {
 
 /* Ipad */
 @media(max-width: 1199px) {
-    /* #backtop {
-        right: 220px;
-      } */
+    #backtop {
+        left: 40%;
+      }
     /* .TQ1 {
         margin-left: auto;
         margin-right: auto;
@@ -998,36 +998,29 @@ nav .fa-bars {
 
     .Footer div ul{
         display: block;
-        margin-left: 50px;
-         margin-right: 50px;
-    }
-    .Info{
-        display:block;
-        width: 100%;
-    }
-    .Flex{
-        float: left;
-        margin-bottom: 10px;
-        display: block;
-    }
-    #animation{
-        width: 100%;
-    }
-    #animation img{
-        width: 110%;
-        animation: nudge 5s linear infinite alternate;
-        animation-direction: alternate;
-        margin-left: 20px;
-        margin-top: -20px;
-        
-    }
-    .Footer h4{
-        font-size: 20px;
-    }
-    .Footer h1{
-        font-size: 25px;
-    }
-
+        margin-left: 10px;
+        margin-right: 50px;
+      }
+      .Info{
+          display: block;
+          width: 100%;
+      }
+      .flex{
+        display: flex;
+          float: left;
+          margin-bottom: 10px;
+      }
+      #animation{
+          width: 100%;
+      }
+      #animation img{
+          width: 120%;
+          animation: nudge 5s linear infinite alternate;
+          animation-direction: alternate;
+          margin-left: 20px;
+          margin-top: -20px;
+          
+      }
     .containerSer {
         height: 240px;
         margin-top: 45px;
@@ -1376,7 +1369,7 @@ nav .fa-bars {
         height: 40px;
     }
     .dots{
-        top:25%;
+       top: 350px;
         left: -5%;
     }
     .dots li{
@@ -1387,9 +1380,9 @@ nav .fa-bars {
         width: 15px;
     }
     .HdKhac{
-        margin-top: -400px;
+        margin-top: -260px;
     }
     #backtop{
-        right: 1250px;
+        left: 20%;
     }
 }
