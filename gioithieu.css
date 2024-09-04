@@ -526,9 +526,9 @@ nav .fa-bars{
     /* .TQ1{
         max-width: 700px;
     } */
-    /* #backtop {
+    #backtop {
         right: 220px;
-      } */
+      }
     .TQ1 {
         margin-left: auto;
         margin-right: auto;
@@ -538,7 +538,7 @@ nav .fa-bars{
         display: block;
     }
     .text-box{
-        font-size: 22px;
+        font-size: 80px;
     }
     .nav-links ul li{
         display: block;
@@ -584,35 +584,29 @@ nav .fa-bars{
     }
     .Footer div ul{
         display: block;
-        margin-left: 50px;
-         margin-right: 50px;
-    }
-    .Info{
-        display: block;
-        width: 100%;
-    }
-    .flex{
-        float: left;
-        margin-bottom: 10px;
-        display: block;
-    }
-    #animation{
-        width: 100%;
-    }
-    #animation img{
-        width: 110%;
-        animation: nudge 5s linear infinite alternate;
-        animation-direction: alternate;
-        margin-left: 20px;
-        margin-top: -20px;
-        
-    }
-    .Footer h4{
-        font-size: 20px;
-    }
-    .Footer h1{
-        font-size: 25px;
-    }
+        margin-left: 10px;
+        margin-right: 50px;
+      }
+      .Info{
+          display: block;
+          width: 100%;
+      }
+      .flex{
+        display: flex;
+          float: left;
+          margin-bottom: 10px;
+      }
+      #animation{
+          width: 100%;
+      }
+      #animation img{
+          width: 120%;
+          animation: nudge 5s linear infinite alternate;
+          animation-direction: alternate;
+          margin-left: 20px;
+          margin-top: -20px;
+          
+      }
     .GioiThieu{
         display: block;
         padding-bottom: 20px;
@@ -636,55 +630,35 @@ nav .fa-bars{
         text-align: center;
         font-size: 15px;
     }
-    .BCN{
-        margin-bottom: 100px;
-    }
-    .BCN h1{
-        font-size: 25px;
-    }
-    .BCN .Flex{
-        display: block;
-        padding: 100px;
-    }
-    .BCN .Flex div{
-        height: 50px;
-        width: 20px;
-        padding: 10px;
-    }
-    .BCN .Flex div p{
-        font-size: 4px;
-        padding: 0px;
-    }
-    .BCN .Flex div h2{
-        font-size: 15px;
-        padding: 5px;
-    }
-    .BCN .Flex .Images{
+    /* .BCN .Flex .Images{
         position: relative;
         bottom: 10rem;
         right: 200px;
         top: -10rem;
-    }
+    } */
     .Images .shape{
         height: 330px;
     }
     .Images .image{
         height: 250px;
         transform: translateX(-150%);
-        margin-top: -320px;
         margin-left: 200px;
     }
     
     .Images:hover .image{
         left: 400px;
     }
+    .BCN{
+        margin-bottom: 100px;
+    }
     .BCN .Flex .Borders{
         border-radius: 10px;
-        /* min-height: 150px; */
         padding: 10px;
-        margin-top: -100px;
         height: 150px;
         width: 300px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 160px;
     }
     .GioiThieu .title h6{
         font-size: 18px;
@@ -702,23 +676,28 @@ nav .fa-bars{
         font-size: 40px;
     }
     .CheckThanh{
-        margin-left: -50px;
-        margin-bottom: 200px;
-        margin-top: 20px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .VVT{
+        margin-left: -500px;
     }
     .CheckThanh1{
-        margin-left: -200px;
+        margin-left: -250px;
+        margin-top: 400px;
     }
-    .CheckToan1{
-        margin-top: 150px;
-        margin-bottom: 150px;
+    .NVH{
         margin-left: -50px;
     }
-    .CheckToan{
-        margin-left: -200px;
+    .NVH2{
+        margin-left: 200px;
     }
-    .MarginBottom {
-        margin-top: 150px;
+    .CheckToan1{
+        margin-left: 380px;
+        margin-top: 80px;
+    }
+    .MarginTop{
+        margin-top: -200px;
     }
     .BCN .Flex .Borders h2{
         font-size: 15px;
