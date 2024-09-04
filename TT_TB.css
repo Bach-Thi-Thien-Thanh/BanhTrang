@@ -808,7 +808,7 @@ button a {
 .nav-links{
     position:absolute;
     background-color: rgb(157, 176, 180);
-    height: 100%;
+    height: 100vh;
     width: 200px;
     top: 0;
     right: -200px;
