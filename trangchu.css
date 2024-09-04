@@ -1354,15 +1354,18 @@ nav .fa-bars{
         font-size: 10px;
         margin-top: -20px;
     }
+    .menu .main-menu  .MD h4{
+        margin-top: -20px;
+    }
     .content{
             display: block;
             margin-top:730px;
-            margin-left: -30px;
+            /* margin-left: -30px; */
+            /* width: 100%; */
         }
-    .content{
-        display: block;
-        margin-top:730px;
-        width: 100%;
+    .content .title-content1{
+       text-align: center;
+       width: 100%;
     }
    *
 
@@ -1448,8 +1451,8 @@ nav .fa-bars{
     }
     .inputQA .QA{
         display: block;
-        width: 75%;
-        margin-left: 10px;
+        width: 100%;
+        /* margin-left: 5px; */
 
     }
     .inputQA .QA .container2{
@@ -1478,7 +1481,7 @@ nav .fa-bars{
     }
     .FAQ .QA {
         font-size: 10px;
-        margin-left: -40px;
+        margin-left: -60px;
         width: 90%;
     }
     .FAQ .QA .faq-container{
