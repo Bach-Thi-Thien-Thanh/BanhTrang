@@ -641,7 +641,7 @@ nav .fa-bars{
         width: 100%;
     }
     .Header .H2 .TV1 .box {
-        width: 75%;
+        width: 69%;
     }
     .Header .H2 .TV1 .box .square{
         width: 50px;
@@ -670,7 +670,7 @@ nav .fa-bars{
     }
     .Header .H3 .TV2{
         width: 30%;
-        margin-top: 150px;
+        margin-top: 170px;
     }
     .Header .H3 .TV2 .tieude{
         margin-left: -100px;
@@ -696,19 +696,18 @@ nav .fa-bars{
         width: 100%;
     }
     .Header .H4 .TV3 h1{
-            font-size: 18px;
+            font-size: 20px;
             margin-top: 150px;
             width: 85%;
-            margin-left: 20px;
+            margin-left: 25px;
     }
     .Header .H4 .TV3 button{    
-        margin-left: 25%;
-        width: 35%;
+        margin-left: 30%;
         height: 40px;
         font-size: 15px;
     }
     .Footer {
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .Footer div ul{
         display: block;
