@@ -1452,7 +1452,7 @@ nav .fa-bars{
     .inputQA .QA{
         display: block;
         width: 100%;
-        /* margin-left: 5px; */
+        margin-left: 10px;
 
     }
     .inputQA .QA .container2{
