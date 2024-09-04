@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto','Arial','Helvetica','OpenSans';
+    /* font-family: 'Roboto','Arial','Helvetica','OpenSans'; */
+    font-family: 'Muli';
 }
 #backtop {
     width: 50px;
@@ -611,6 +612,148 @@ nav .fa-bars{
       transform: translateY(300px);
     }
   }
+
+  @media(max-width:1199px){
+    #backtop {
+        right: 50px;
+      }
+    /* .Header{
+        width: 100%;
+     } */
+    .snowflake{
+        width: 50%;
+    }
+    .Header .H1 nav{
+        width: 85%;
+    }
+    .Header .H1 nav .home{
+        width: 10%;
+        font-size: 25px;
+    }
+    .Header .H1 nav .home a{
+        font-size: 25px;
+    }
+    .Header .H1 nav  .apply a button{
+            width: 200px;
+            height: 70px;
+            font-size: 20px;
+    }
+    .Header .H2 .TV1{
+        /* display: block; */
+        width: 100%;
+    }
+    /* .Header .H2 .TV1 .box {
+        width: 69%;
+    }
+    
+    .Header .H2 .TV1 .box .container{
+        width: 60%;
+        justify-content: center;
+        
+    }
+    .Header .H2 .TV1 .box .container .form{
+        width: 600px;
+    }
+    .Header .H2 .TV1 .box .container .form h2{
+        font-size: 20px;
+    }
+      .Header .H2 .TV1 .box .container .form  .inputBox input{
+        padding: 5px 5px;
+    }
+        */
+    .Header .H2 .TV1 .box .square{
+            width: 100px;
+            height: 100px;
+        }
+    .astronaut img{
+        width: 100%;
+        height: 500px;
+        margin-top: 200px;
+        object-fit: cover;
+    } 
+    
+    /* .Header .H3{
+        width: 100%;
+        height: 600px;
+    }
+    .Header .H3 .TV2{
+        width: 30%;
+        margin-top: 170px;
+    }
+    
+    .Header .H3 .TV2 .tieude p{
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .Header .H3 .TV2 .noidung .td{
+            font-size: 17px;
+    } */
+    .Header .H3 .TV2 .tieude{
+        margin-left: 100px;
+    }
+    .Header .H3 .TV2 .noidung{
+        width: 900px;
+        height: 300px;
+    }
+    /* .Header .H4{
+        margin-top: -80px;
+        margin-bottom: 300px;
+    }
+    .Header .H4 .TV3{
+        
+        width: 100%;
+        
+    }
+  
+    .Header .H4 .TV3 button{    
+        margin-left: 30%;
+        height: 40px;
+        font-size: 15px;
+
+    } */
+    .Header .H4 .TV3 h1{
+        font-size: 30px;
+        /* margin-top: 150px;
+        width: 85%;
+        margin-left: 25px;
+        padding-top: 10px; */
+       
+}
+    .Footer div ul{
+        display: block;
+        margin-left: 50px;
+         margin-right: 50px;
+    }
+    .Info{
+        display: block;
+        width: 100%;
+    }
+    .flex{
+        float: left;
+        margin-bottom: 10px;
+    }
+    #animation{
+        width: 100%;
+    }
+    #animation img{
+        width: 110%;
+        animation: nudge 5s linear infinite alternate;
+        animation-direction: alternate;
+        margin-left: 20px;
+        margin-top: 10px;
+        
+    }
+    .Footer h4{
+        font-size: 20px;
+    }
+    .Footer h1{
+        font-size: 25px;
+    }
+    
+}
+
   @media(max-width:700px){
     #backtop {
         right: 50px;
@@ -690,7 +833,7 @@ nav .fa-bars{
             font-size: 17px;
     }
     .Header .H4{
-        margin-top: -100px;
+        margin-top: -80px;
         margin-bottom: 300px;
     }
     .Header .H4 .TV3{
@@ -713,7 +856,7 @@ nav .fa-bars{
 
     }
     .Footer {
-        margin-top: 150px;
+        margin-top: 180px;
     }
     .Footer div ul{
         display: block;
