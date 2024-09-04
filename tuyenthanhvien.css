@@ -788,13 +788,13 @@ nav .fa-bars{
     .Header .H3 .TV2 .noidung{
         width: 300px;
         margin-left: -100px;
-        height: 520px;
+        height: 620px;
     }
     .Header .H3 .TV2 .noidung .td{
             font-size: 17px;
     }
     .Header .H4{
-        margin-top: -180px;
+        margin-top: -90px;
         margin-bottom: 500px;
     }
     .Header .H4 .TV3{
@@ -818,7 +818,7 @@ nav .fa-bars{
 
     }
     .Footer {
-        margin-top: 220px;
+        margin-top: 280px;
     }
     .Footer div ul{
         display: block;
