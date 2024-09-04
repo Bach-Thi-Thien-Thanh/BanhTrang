@@ -703,6 +703,27 @@ nav .fa-bars{
     }
     
 }
+@media(max-width:991px){
+    .Header .H3 .TV2 .noidung{
+        width: 700px;
+        height: 320px;
+    }
+    .Header .H4 .TV3{
+        width: 100%;
+    }
+    .Header .H4 .TV3 h1{
+        font-size: 20px;
+        /* margin-top: 150px;
+        width: 85%;
+        margin-left: 25px;
+        padding-top: 10px; */
+       justify-content: center;
+    }
+    .Header .H4 .TV3 button{
+            justify-content: center;
+    }
+
+}
 
   @media(max-width:700px){
     #backtop {
