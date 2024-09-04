@@ -538,7 +538,7 @@ nav .fa-bars{
         display: block;
     }
     .text-box{
-        font-size: 80px;
+        font-size: 50px;
     }
     .nav-links ul li{
         display: block;
@@ -995,8 +995,8 @@ nav .fa-bars{
         margin-right:auto;
         width: 20rem;
         border-radius: 30px;
-        top: 20%;
-        left: 5%;
+        top: 30%;
+        left: -4%;
     }
     .product-pre .pre .fa-solid{
         position: absolute;
