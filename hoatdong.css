@@ -932,7 +932,7 @@ nav .fa-bars {
 /* Ipad */
 @media(max-width: 1199px) {
     #backtop {
-        left: 40%;
+        left: 32%;
       }
     /* .TQ1 {
         margin-left: auto;
@@ -943,7 +943,9 @@ nav .fa-bars {
     .text-box {
         font-size: 22px;
     }
-
+    .text-box p{
+        font-size: 35px;
+    }
     .nav-links ul li {
         display: block;
     }
@@ -1161,7 +1163,9 @@ nav .fa-bars {
     .text-box {
         font-size: 22px;
     }
-
+    .text-box p{
+        font-size: 25px;
+    }
     .nav-links ul li {
         display: block;
     }
